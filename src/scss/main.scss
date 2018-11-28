@@ -1,0 +1,46 @@
+@import './flex_grid.scss';
+@import './header.scss';
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Kodchasan');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:800i&subset=cyrillic'); // main styles
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #141414;
+    font-weight: 900;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #141414;
+    font-size: 35.97px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.075em;
+}
+
+button {
+    width: 408px;
+    height: 85px;
+    background-image: linear-gradient(0.0deg, #de6262 0%, #ffb88c 100%);
+    box-shadow: 0 3px 1px 0 rgba(0,0,0,0.2);
+    border-radius: 41.0px;
+    color: #f7f7f7;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 22px;
+
+    &:hover {
+        cursor: pointer;
+    }
+    &:active {
+        background-color:  #ce2029;
+        background-image: none;
+
+
+    }
+}
