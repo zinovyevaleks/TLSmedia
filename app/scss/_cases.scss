@@ -1,0 +1,116 @@
+/*===== Кейсы =====*/
+.cases {
+    &_left {
+        background-image: url("../img/cases_bg-left.png");
+        max-height: 1080px;
+
+        h3 {
+            font-size: 28px;
+            font-weight: 900;
+            margin-top: -36px;
+            margin-left: 174px;
+        }
+    }
+
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        background: linear-gradient(60deg, #de6776 20%, #f98461 53%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 50px;
+        font-size: 115px;
+        font-weight: 900;
+        line-height: 34.276px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 97px;
+        height: 112px;
+    }
+
+    span {
+        font-size: 28px;
+        line-height: 180px;
+        font-weight: 900;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: #000000;
+        text-transform: uppercase;
+    }
+
+
+
+    p {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 29px;
+    }
+
+    .case_button-collapse {
+        background-color: #fff;
+        border: none;
+        width: 100%;
+        outline: none;
+        text-align: left;
+
+        img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #F15A40;
+        }
+
+        span {
+            font-size: 17.97px;
+            font-weight: 700;
+            text-align: left;
+            margin-left: 22px;
+            line-height: 1;
+        }
+
+        &:hover {
+            img {
+                border-color: #F15A40;
+            }
+        }
+    }
+
+    .collapsed {
+        img {
+            border-color: transparent;
+        }
+    }
+
+    .card-body {
+        padding-left: 6rem;
+    }
+
+    &_right {
+        background-image: url("../img/cases_bg-right.jpg");
+        background-repeat: no-repeat;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 1080px;
+
+        .media {
+            margin-left: 58px;
+
+            &-body {
+                width: 280px;
+                margin-bottom: 50px;
+
+                h3 {
+                    font-size: 28px;
+                    font-weight: 900;
+                }
+            }
+
+            img {
+                float: left;
+            }
+        }
+    }
+}
