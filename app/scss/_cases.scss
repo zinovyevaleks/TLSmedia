@@ -4,6 +4,21 @@
         background-image: url("../img/cases_bg-left.png");
         max-height: 1080px;
 
+        h2 {
+            font-family: 'Raleway', sans-serif;
+            background: linear-gradient(60deg, #de6776 20%, #f98461 53%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding-top: 50px;
+            font-size: 115px;
+            font-weight: 900;
+            line-height: 34.276px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 97px;
+            height: 112px;
+        }
+
         h3 {
             font-size: 28px;
             font-weight: 900;
@@ -12,20 +27,7 @@
         }
     }
 
-    h2 {
-        font-family: 'Raleway', sans-serif;
-        background: linear-gradient(60deg, #de6776 20%, #f98461 53%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        padding-top: 50px;
-        font-size: 115px;
-        font-weight: 900;
-        line-height: 34.276px;
-        text-align: center;
-        text-transform: uppercase;
-        margin-top: 97px;
-        height: 112px;
-    }
+
 
     span {
         font-size: 28px;
