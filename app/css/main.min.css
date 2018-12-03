@@ -6511,6 +6511,7 @@ strong {
 
 .download_price {
   background-image: url(../img/price-list_bg.jpg);
+  background-repeat: no-repeat;
 }
 
 .download_price h3 {
@@ -6550,6 +6551,29 @@ strong {
 
 .download_price form .btn {
   margin-top: 49px;
+}
+
+.feedback {
+  background-image: url(../img/feedback_bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.feedback h2 {
+  margin-top: 71px;
+  color: #f7f7f7;
+  margin-bottom: 21px;
+  font-size: 36px;
+}
+
+.feedback p {
+  color: #f7f7f7;
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.feedback .btn {
+  margin-bottom: 107px;
 }
 
 /*==========  Desktop First  ==========*/
