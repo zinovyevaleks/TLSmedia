@@ -36,8 +36,6 @@
         text-transform: uppercase;
     }
 
-
-
     p {
         font-size: 21px;
         font-weight: 400;
@@ -83,6 +81,15 @@
 
     .card-body {
         padding-left: 6rem;
+
+        .btn {
+            width: 272px;
+            height: 59px;
+            margin-top: 26px;
+            margin-bottom: 38px;
+            font-size: 14px;
+            font-weight: 700;
+        }
     }
 
     &_right {

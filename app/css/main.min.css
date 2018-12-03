@@ -6068,6 +6068,15 @@ strong {
   padding-left: 6rem;
 }
 
+.cases .card-body .btn {
+  width: 272px;
+  height: 59px;
+  margin-top: 26px;
+  margin-bottom: 38px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .cases_right {
   background-image: url("../img/cases_bg-right.jpg");
   background-repeat: no-repeat;
@@ -6104,6 +6113,22 @@ strong {
 
 .cases_right .media img {
   float: left;
+}
+
+.presentation {
+  background-image: url(../img/presentation_bg.jpg);
+}
+
+.presentation p {
+  color: #f7f7f7;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-bottom: 46px;
+}
+
+.presentation .btn {
+  margin-bottom: 114px;
 }
 
 /*==========  Desktop First  ==========*/
