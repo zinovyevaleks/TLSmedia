@@ -6203,7 +6203,6 @@ strong {
 /*===== Кейсы =====*/
 .cases_left {
   background-image: url("../img/cases_bg-left.png");
-  max-height: 1080px;
 }
 
 .cases_left h2 {
@@ -6347,8 +6346,8 @@ strong {
 }
 
 .services {
-  background-image: url(../img/services_bg.jpg);
-  max-height: 1080px;
+  background-image: url("../img/services_bg.jpg");
+  max-height: 1290px;
 }
 
 .services h2 {
@@ -6373,6 +6372,141 @@ strong {
   font-weight: 900;
   margin-top: -36px;
   margin-left: 174px;
+}
+
+.services .services_left {
+  height: 625px;
+  margin-top: 154px;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: inset 3px 3px 20px 0 rgba(0, 0, 0, 0.21);
+          box-shadow: inset 3px 3px 20px 0 rgba(0, 0, 0, 0.21);
+  padding: 0;
+}
+
+.services .services_rigth {
+  margin-top: 111px;
+  margin-bottom: 190px;
+  padding: 69px;
+  -webkit-box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.21);
+          box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.21);
+}
+
+.services .list-group {
+  font-size: 17.97px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.services .list-group-item-action {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  background: none;
+  color: #000;
+  height: 79px;
+}
+
+.services .list-group-item-action.active {
+  background: -webkit-linear-gradient(-80deg, #eb3349 42%, #f45c43 58%);
+  background: -o-linear-gradient(-80deg, #eb3349 42%, #f45c43 58%);
+  background: -webkit-linear-gradient(280deg, #eb3349 42%, #f45c43 58%);
+  background: -o-linear-gradient(280deg, #eb3349 42%, #f45c43 58%);
+  background: linear-gradient(170deg, #eb3349 42%, #f45c43 58%);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(235, 51, 73, 0.32);
+          box-shadow: 0 4px 8px 0 rgba(235, 51, 73, 0.32);
+}
+
+.services .tab-content .tab-pane {
+  display: none;
+}
+
+.services .tab-content .tab-pane img {
+  position: absolute;
+  z-index: 10;
+  top: -70px;
+  right: -60px;
+}
+
+.services .tab-content .tab-pane form {
+  border-style: solid;
+  border-color: #F15A40;
+  border-width: 5px;
+  height: 540px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 33px;
+}
+
+.services .tab-content .tab-pane form p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 186px;
+  width: 405px;
+  text-align: justify;
+  margin-bottom: 137px;
+}
+
+.services .tab-content .tab-pane .btn {
+  position: absolute;
+  bottom: 54px;
+}
+
+.services .tab-content .tab-pane .btn::before, .services .tab-content .tab-pane .btn::after {
+  display: block;
+  position: relative;
+  content: '';
+  width: 30px;
+  height: 10px;
+  background-color: #fff;
+}
+
+.services .tab-content .tab-pane .btn:before {
+  top: 18px;
+  left: -38px;
+}
+
+.services .tab-content .tab-pane .btn:after {
+  top: -14px;
+  right: -400px;
+}
+
+.services .tab-content .tab-pane .form-check .form-check-input {
+  margin-right: 40px;
+}
+
+.services .tab-content .tab-pane .form-check .form-check-label {
+  text-transform: uppercase;
+}
+
+.services .tab-content .active {
+  display: block;
 }
 
 .download_price {

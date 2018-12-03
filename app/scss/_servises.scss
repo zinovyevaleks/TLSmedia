@@ -1,6 +1,6 @@
 .services {
-    background-image: url(../img/services_bg.jpg);
-    max-height: 1080px;
+    background-image: url("../img/services_bg.jpg");
+    max-height: 1290px;
 
     h2 {
         font-family: 'Raleway', sans-serif;
@@ -22,5 +22,128 @@
         font-weight: 900;
         margin-top: -36px;
         margin-left: 174px;
+    }
+
+    .services_left {
+        height: 625px;
+        margin-top: 154px;
+        background-color: #f7f7f7;
+        box-shadow: inset 3px 3px 20px 0 rgba(0, 0, 0, 0.21);
+        padding: 0;
+    }
+
+    .services_rigth {
+        margin-top: 111px;
+        margin-bottom: 190px;
+        padding: 69px;
+        box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.21);
+    }
+
+    .list-group {
+        font-size: 17.97px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        &-item-action {
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            background: none;
+            color: #000;
+            height: 79px;
+
+            &.active {
+                background: -webkit-linear-gradient(-80deg, #eb3349 42%, #f45c43 58%);
+                background: -moz-linear-gradient(-80deg, #eb3349 42%, #f45c43 58%);
+                background: -o-linear-gradient(-80deg, #eb3349 42%, #f45c43 58%);
+                background: -ms-linear-gradient(-80deg, #eb3349 42%, #f45c43 58%);
+                background: linear-gradient(170deg, #eb3349 42%, #f45c43 58%);
+                box-shadow: 0 4px 8px 0 rgba(235, 51, 73, 0.32);
+            }
+        }
+    }
+
+    .tab-content {
+        .tab-pane {
+            display: none;
+
+            img {
+                position: absolute;
+                z-index: 10;
+                top: -70px;
+                right: -60px;
+            }
+
+            form {
+
+                border-style: solid;
+                border-color: #F15A40;
+                border-width: 5px;
+                height: 540px;
+                display: -webkit-flex;
+                display: -ms-flex;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 33px;
+
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-top: 186px;
+                    width: 405px;
+                    text-align: justify;
+                    margin-bottom: 137px;
+                }
+
+            }
+
+            .btn {
+                position: absolute;
+                bottom: 54px;
+
+                &::before,
+                &::after
+                 {
+                     display: block;
+                     position: relative;
+                    content: '';
+                    width: 30px;
+                    height: 10px;
+                    background-color: #fff;
+                }
+
+                &:before {
+                    top: 18px;
+                    left:-38px;
+                }
+
+                &:after {
+                    top: -14px;
+                    right:-400px;
+                }
+            }
+
+            .form-check {
+                .form-check-input{
+                    margin-right: 40px;
+                }
+
+                .form-check-label {
+                    text-transform: uppercase;
+                }
+            }
+
+
+
+        }
+
+        .active {
+            display: block;
+        }
     }
 }
