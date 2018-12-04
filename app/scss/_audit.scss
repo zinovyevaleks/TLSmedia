@@ -1,0 +1,97 @@
+.audit {
+    background-image: url("../img/audit_bg.jpg");
+    background-repeat: no-repeat;
+    min-height: 1289px;
+
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        background: linear-gradient(60deg, #de6776 20%, #f98461 53%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 50px;
+        font-size: 115px;
+        font-weight: 900;
+        line-height: 34.276px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 205px;
+        height: 112px;
+    }
+
+    h3 {
+        font-size: 28px;
+        font-weight: 900;
+        margin-top: -36px;
+        margin-left: 174px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 21px;
+        margin-bottom: 140px;
+    }
+
+    .audit_card_header {
+
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        align-items: center;
+        border-radius: 12px;
+        box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
+        margin-bottom: 21px;
+        height: 72px;
+
+
+
+
+        input {
+            margin-right: 40px;
+            margin-left: 20px;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+            font-size: 21.01px;
+            font-weight: 700;
+        }
+
+
+    }
+
+    .header-red {
+        background-color:  #eb3349;
+    }
+
+    .card-body {
+        // z-index: 10;
+        // margin-top: -21px;
+        margin-bottom: 21px;
+
+        padding: 30px 49px;
+        border-radius: 12px;
+        box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
+    }
+
+    .list-group {
+        &-item {
+            border: none;
+        }
+    }
+
+    .tab-content {
+        .tab-pane {
+            display: none;
+        }
+
+
+        .show {
+            display: block;
+        }
+    }
+
+    .btn {
+        margin-top: 21px;
+    }
+}

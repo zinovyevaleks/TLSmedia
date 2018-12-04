@@ -6475,7 +6475,7 @@ strong {
 
 .services .tab-content .tab-pane .btn {
   position: absolute;
-  bottom: 54px;
+  bottom: 64px;
 }
 
 .services .tab-content .tab-pane .btn::before, .services .tab-content .tab-pane .btn::after {
@@ -6574,6 +6574,101 @@ strong {
 
 .feedback .btn {
   margin-bottom: 107px;
+}
+
+.audit {
+  background-image: url("../img/audit_bg.jpg");
+  background-repeat: no-repeat;
+  min-height: 1289px;
+}
+
+.audit h2 {
+  font-family: 'Raleway', sans-serif;
+  background: -webkit-linear-gradient(30deg, #de6776 20%, #f98461 53%);
+  background: -o-linear-gradient(30deg, #de6776 20%, #f98461 53%);
+  background: linear-gradient(60deg, #de6776 20%, #f98461 53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 50px;
+  font-size: 115px;
+  font-weight: 900;
+  line-height: 34.276px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 205px;
+  height: 112px;
+}
+
+.audit h3 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: -36px;
+  margin-left: 174px;
+  text-transform: uppercase;
+}
+
+.audit p {
+  font-size: 21px;
+  margin-bottom: 140px;
+}
+
+.audit .audit_card_header {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  -webkit-box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
+          box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
+  margin-bottom: 21px;
+  height: 72px;
+}
+
+.audit .audit_card_header input {
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.audit .audit_card_header a {
+  color: #000;
+  text-decoration: none;
+  font-size: 21.01px;
+  font-weight: 700;
+}
+
+.audit .header-red {
+  background-color: #eb3349;
+}
+
+.audit .card-body {
+  margin-bottom: 21px;
+  padding: 30px 49px;
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  -webkit-box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
+          box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
+}
+
+.audit .list-group-item {
+  border: none;
+}
+
+.audit .tab-content .tab-pane {
+  display: none;
+}
+
+.audit .tab-content .show {
+  display: block;
+}
+
+.audit .btn {
+  margin-top: 21px;
 }
 
 /*==========  Desktop First  ==========*/
