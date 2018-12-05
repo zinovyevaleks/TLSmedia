@@ -6448,13 +6448,13 @@ strong {
   margin-left: 174px;
 }
 
-.cases span {
-  font-size: 28px;
-  line-height: 180px;
+.cases h5 {
+  font-size: 18px;
   font-weight: 900;
   letter-spacing: 0.1em;
   -webkit-text-fill-color: #000000;
   text-transform: uppercase;
+  width: 20vw;
 }
 
 .cases p {
@@ -6463,12 +6463,22 @@ strong {
   line-height: 29px;
 }
 
+.cases .accordion {
+  margin-top: 111px;
+}
+
 .cases .case_button-collapse {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #fff;
   border: none;
   width: 100%;
   outline: none;
   text-align: left;
+  margin-bottom: 52px;
 }
 
 .cases .case_button-collapse img {
@@ -6479,6 +6489,7 @@ strong {
   border-width: 5px;
   border-style: solid;
   border-color: #F15A40;
+  margin-right: 22px;
 }
 
 .cases .case_button-collapse span {
@@ -6550,6 +6561,9 @@ strong {
 
 .presentation {
   background-image: url(../img/presentation_bg.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
 }
 
 .presentation p {
@@ -6566,7 +6580,9 @@ strong {
 
 .services {
   background-image: url("../img/services_bg.jpg");
-  max-height: 1290px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
 }
 
 .services h2 {
@@ -6604,7 +6620,7 @@ strong {
 
 .services .services_rigth {
   margin-top: 111px;
-  margin-bottom: 190px;
+  margin-bottom: 164px;
   padding: 69px;
   -webkit-box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.21);
           box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.21);
@@ -7037,6 +7053,10 @@ strong {
   font-style: italic;
 }
 
+.principles {
+  margin-bottom: 275px;
+}
+
 .principles h3 {
   color: #ed3f47;
   font-size: 21.02px;
@@ -7053,6 +7073,9 @@ strong {
           box-shadow: 4px 5px 24px 0 rgba(0, 0, 0, 0.21);
   overflow: auto;
   padding: 56px 30px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff;
 }
 
 .principles .card-head {
@@ -7092,10 +7115,198 @@ strong {
 }
 
 .principles .card:focus, .principles .card:hover {
-  border-width: 5px;
-  border-style: solid;
   border-color: #EB3F44;
 }
 
+.map {
+  background-image: url(../img/map_bg.jpg);
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.map_head {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map_head h2 {
+  color: #eb3349;
+  font-size: 47.99px;
+  font-weight: 900;
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+
+.map_head img {
+  margin-left: 20px;
+  width: 62px;
+  height: 62px;
+}
+
+.footer {
+  background-color: #232323;
+  min-height: 613px;
+  padding-top: 99px;
+  padding-bottom: 99px;
+  color: #f7f7f7;
+}
+
+.footer h3 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.footer .adress {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 59px;
+  margin-bottom: 47px;
+}
+
 /*==========  Desktop First  ==========*/
+@media (max-width: 767.98px) {
+  .btn {
+    width: 360px;
+  }
+  .cases_left h2 {
+    font-size: 72px;
+    margin-top: 50px;
+  }
+  .cases_left h3 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .cases_left h5 {
+    width: 100vw;
+  }
+  .cases_right {
+    height: 550px;
+  }
+  .services {
+    height: auto;
+  }
+  .services h2 {
+    font-size: 72px;
+    margin-top: 50px;
+    -webkit-text-fill-color: #000;
+  }
+  .services h3 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .services .services_rigth {
+    margin-top: 111px;
+    margin-bottom: 164px;
+    padding: 40px;
+    -webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.21);
+    box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.21);
+  }
+  .services .tab-content .tab-pane img {
+    top: 9px;
+    right: 0;
+    height: 150px;
+    width: 150px;
+  }
+  .services .tab-content .tab-pane form {
+    height: 450px;
+  }
+  .services .tab-content .tab-pane .btn {
+    bottom: 120px;
+    width: 280px;
+  }
+  .services .tab-content .tab-pane .btn:after, .services .tab-content .tab-pane .btn:before {
+    display: none;
+  }
+  .audit h2 {
+    font-size: 65px;
+    margin-top: 150px;
+  }
+  .audit h3 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .audit p {
+    margin-bottom: 60px;
+  }
+  .audit .btn {
+    margin-left: 4vw;
+  }
+  .audit .col-lg-5 {
+    display: none;
+  }
+  .reasons .container {
+    background-image: none;
+  }
+  .reasons h2 {
+    font-size: 72px;
+    margin-top: 50px;
+  }
+  .reasons h3 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .reasons .carousel-caption {
+    bottom: 22px;
+    right: 26%;
+    left: 8%;
+  }
+  .reasons .carousel-caption p {
+    font-size: 14px;
+  }
+  .reasons .carousel-description {
+    height: 270px;
+    margin-top: 5px;
+  }
+  .principles {
+    margin-bottom: 75px;
+  }
+  .principles h3 {
+    margin: auto;
+  }
+  .principles .card {
+    margin-top: 30px;
+  }
+  .footer h3 {
+    font-size: 26px;
+  }
+  .footer .adress {
+    font-size: 22px;
+  }
+  .footer h4 {
+    text-align: center;
+  }
+  .footer .col-lg-4 {
+    text-align: center;
+  }
+  .footer .col-lg-6 {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
 /*==========  Mobile First  ==========*/

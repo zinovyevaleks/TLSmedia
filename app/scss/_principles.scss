@@ -1,4 +1,6 @@
 .principles {
+    margin-bottom: 275px;
+
     h3 {
         color: #ed3f47;
         font-size: 21.02px;
@@ -13,6 +15,9 @@
         box-shadow: 4px 5px 24px 0 rgba(0, 0, 0, 0.21);
         overflow: auto;
         padding: 56px 30px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #fff;
 
         &-head {
             display: -webkit-flex;
@@ -46,8 +51,6 @@
 
         &:focus,
         &:hover {
-            border-width: 5px;
-            border-style: solid;
             border-color: #EB3F44;
         }
     }

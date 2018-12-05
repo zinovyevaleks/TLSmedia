@@ -1,47 +1,179 @@
 @import "vars";
-
-
 /*==========  Desktop First  ==========*/
-
 // ≥1200px
-@include media-breakpoint-down(lg) {
-	
-}
-
+@include media-breakpoint-down(lg) {}
 // ≥992px
-@include media-breakpoint-down(md) {
-
-}
-
+@include media-breakpoint-down(md) {}
 // ≥768px
 @include media-breakpoint-down(sm) {
+	.btn {
+		width: 360px;
+	}
 
+	.cases_left {
+		h2 {
+			font-size: 72px;
+			margin-top: 50px;
+		}
+
+		h3 {
+			margin-top: 0;
+			margin-left: 0;
+		}
+
+		h5 {
+			width: 100vw;
+		}
+	}
+
+	.cases_right {
+		height: 550px;
+	}
+
+	.services {
+		height: auto;
+
+		h2 {
+			font-size: 72px;
+			margin-top: 50px;
+			-webkit-text-fill-color: #000;
+		}
+
+		h3 {
+			margin-top: 0;
+			margin-left: 0;
+		}
+
+		.services_rigth {
+			margin-top: 111px;
+			margin-bottom: 164px;
+			padding: 40px;
+			-webkit-box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.21);
+			box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.21);
+		}
+
+		.tab-content .tab-pane {
+			img {
+				top: 9px;
+				right: 0;
+				height: 150px;
+				width: 150px;
+			}
+
+			form {
+				height: 450px;
+			}
+
+			.btn {
+				bottom: 120px;
+				width: 280px;
+
+				&:after,
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.audit {
+		h2 {
+			font-size: 65px;
+			margin-top: 150px;
+		}
+
+		h3 {
+			margin-top: 0;
+			margin-left: 0;
+		}
+
+		p {
+			margin-bottom: 60px;
+		}
+
+		.btn {
+			margin-left: 4vw;
+		}
+
+		.col-lg-5 {
+			display: none;
+		}
+	}
+
+	.reasons {
+		.container {
+			background-image: none;
+		}
+
+		h2 {
+			font-size: 72px;
+			margin-top: 50px;
+		}
+
+		h3 {
+			margin-top: 0;
+			margin-left: 0;
+		}
+
+		.carousel-caption {
+			bottom: 22px;
+			right: 26%;
+			left: 8%;
+
+			p {
+				font-size: 14px;
+			}
+		}
+
+		.carousel-description {
+			height: 270px;
+			margin-top: 5px;
+		}
+	}
+
+	.principles {
+		margin-bottom: 75px;
+
+		h3 {
+			margin: auto;
+		}
+
+		.card {
+			margin-top: 30px;
+		}
+	}
+
+	.footer {
+		h3 {
+			font-size: 26px;
+		}
+
+		.adress {
+			font-size: 22px;
+		}
+
+		h4 {
+			text-align: center;
+		}
+
+		.col-lg-4 {
+			text-align: center;
+		}
+
+		.col-lg-6 {
+			text-align: center;
+			margin-top: 40px;
+		}
+	}
 }
-
 // ≥576px
-@include media-breakpoint-down(xs) {
-
-}
-
-
+@include media-breakpoint-down(xs) {}
 /*==========  Mobile First  ==========*/
-
 // ≤576px
-@include media-breakpoint-up(sm) {
-
-}
-
+@include media-breakpoint-up(sm) {}
 // ≤768px
-@include media-breakpoint-up(md) {
-
-}
-
+@include media-breakpoint-up(md) {}
 // ≤992px
-@include media-breakpoint-up(lg) {
-
-}
-
+@include media-breakpoint-up(lg) {}
 // ≤1200px
-@include media-breakpoint-up(xl) {
-	
-}
+@include media-breakpoint-up(xl) {}

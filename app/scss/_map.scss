@@ -1,0 +1,31 @@
+.map {
+    background-image: url(../img/map_bg.jpg);
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+
+    &_head {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        h2 {
+            color: #eb3349;
+            font-size: 47.99px;
+            font-weight: 900;
+            margin-top: 125px;
+            margin-bottom: 125px;
+        }
+
+        img {
+            margin-left: 20px;
+            width: 62px;
+            height: 62px;
+        }
+    }
+
+
+}

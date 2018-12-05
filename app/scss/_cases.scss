@@ -29,27 +29,36 @@
 
 
 
-    span {
-        font-size: 28px;
-        line-height: 180px;
+    h5 {
+        font-size: 18px;
         font-weight: 900;
         letter-spacing: 0.1em;
         -webkit-text-fill-color: #000000;
         text-transform: uppercase;
+        width: 20vw;
     }
 
     p {
         font-size: 21px;
         font-weight: 400;
         line-height: 29px;
+
+    }
+    .accordion {
+        margin-top: 111px;
     }
 
     .case_button-collapse {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
         background-color: #fff;
         border: none;
         width: 100%;
         outline: none;
         text-align: left;
+        margin-bottom: 52px;
+
 
         img {
             width: 64px;
@@ -58,6 +67,7 @@
             border-width: 5px;
             border-style: solid;
             border-color: #F15A40;
+            margin-right: 22px;
         }
 
         span {

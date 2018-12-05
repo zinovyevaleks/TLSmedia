@@ -1,6 +1,8 @@
 .services {
     background-image: url("../img/services_bg.jpg");
-    max-height: 1290px;
+    // max-height: 1290px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     h2 {
         font-family: 'Raleway', sans-serif;
@@ -34,7 +36,7 @@
 
     .services_rigth {
         margin-top: 111px;
-        margin-bottom: 190px;
+        margin-bottom: 164px;
         padding: 69px;
         box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.21);
     }
