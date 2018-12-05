@@ -1,0 +1,54 @@
+.principles {
+    h3 {
+        color: #ed3f47;
+        font-size: 21.02px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0 150px 72px;
+    }
+
+    .card {
+        border-radius: 12px;
+        background-color: #ffffff;
+        box-shadow: 4px 5px 24px 0 rgba(0, 0, 0, 0.21);
+        overflow: auto;
+        padding: 56px 30px;
+
+        &-head {
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            margin-bottom: 40px;
+            padding: 0 20px;
+
+            h5 {
+                color: #ed3f47;
+                font-size: 47.98px;
+                font-weight: 900;
+            }
+        }
+
+        &-body {
+            p {
+                font-size: 18px;
+                font-weight: 300;
+                text-align: justify;
+                margin-bottom: 0;
+            }
+
+            span {
+                color: #ed3f47;
+            }
+        }
+
+        &:focus,
+        &:hover {
+            border-width: 5px;
+            border-style: solid;
+            border-color: #EB3F44;
+        }
+    }
+}
