@@ -6609,6 +6609,11 @@ strong {
   margin-left: 174px;
 }
 
+.services p {
+  font-size: 21px;
+  font-weight: 300;
+}
+
 .services .services_left {
   height: 625px;
   margin-top: 154px;
@@ -6803,7 +6808,7 @@ strong {
 .feedback p {
   color: #f7f7f7;
   font-size: 21px;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 40px;
 }
 
@@ -6845,6 +6850,7 @@ strong {
 .audit p {
   font-size: 21px;
   margin-bottom: 140px;
+  font-weight: 300;
 }
 
 .audit .audit_card_header {
@@ -6950,6 +6956,7 @@ strong {
   font-size: 21px;
   margin-bottom: 144px;
   font-weight: lighter;
+  font-weight: 300;
 }
 
 .reasons .carousel {
