@@ -67,11 +67,25 @@
     }
 
     &_button {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 75px;
+    }
+    &_button:hover {
+        color: #fff;
+        text-decoration: none;
     }
 
     &_button:focus {
             outline-color:#FDB289;
+    }
+
+    &_button:active {
+            color: #fff;
+            text-decoration: none;
     }
 
     .results {
