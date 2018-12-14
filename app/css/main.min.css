@@ -6495,7 +6495,7 @@ strong {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #fff;
+  background-color: transparent;
   border: none;
   width: 100%;
   outline: none;

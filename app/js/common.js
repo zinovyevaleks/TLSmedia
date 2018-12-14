@@ -21,11 +21,5 @@ $(function() {
           $('.tab-pane').removeClass('show');
           $('#audit_site_img').addClass('show');
       }
-  });
-
-
-
-
-
-
+    });
 });
