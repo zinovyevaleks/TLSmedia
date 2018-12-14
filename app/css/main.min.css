@@ -6745,18 +6745,18 @@ strong {
   position: relative;
   content: '';
   width: 30px;
-  height: 10px;
+  height: 30px;
   background-color: #fff;
 }
 
 .services .tab-content .tab-pane .btn:before {
   top: 18px;
-  left: -38px;
+  left: -37px;
 }
 
 .services .tab-content .tab-pane .btn:after {
   top: -14px;
-  right: -400px;
+  right: -401px;
 }
 
 .services .tab-content .tab-pane .form-check .form-check-input {
@@ -7226,6 +7226,12 @@ strong {
 }
 
 /*==========  Desktop First  ==========*/
+@media (max-width: 991.98px) {
+  .principles .card {
+    margin-top: 30px;
+  }
+}
+
 @media (max-width: 767.98px) {
   .btn {
     width: 360px;

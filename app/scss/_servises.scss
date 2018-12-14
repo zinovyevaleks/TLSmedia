@@ -120,18 +120,18 @@
                      position: relative;
                     content: '';
                     width: 30px;
-                    height: 10px;
+                    height: 30px;
                     background-color: #fff;
                 }
 
                 &:before {
                     top: 18px;
-                    left:-38px;
+                    left:-37px;
                 }
 
                 &:after {
                     top: -14px;
-                    right:-400px;
+                    right:-401px;
                 }
             }
 

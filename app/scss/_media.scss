@@ -3,7 +3,12 @@
 // ≥1200px
 @include media-breakpoint-down(lg) {}
 // ≥992px
-@include media-breakpoint-down(md) {}
+@include media-breakpoint-down(md) {
+	.principles .card {
+		margin-top: 30px;
+	}
+
+}
 // ≥768px
 @include media-breakpoint-down(sm) {
 	.btn {
