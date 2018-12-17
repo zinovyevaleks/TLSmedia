@@ -43,7 +43,7 @@
         margin-top: 111px;
         margin-bottom: 164px;
         padding: 69px;
-        box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.21);
+        box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.21);
     }
 
     .list-group {
@@ -83,20 +83,46 @@
                 top: -70px;
                 right: -60px;
             }
-
-            form {
-
+            // form {
+            //
+            //     border-style: solid;
+            //     border-color: #F15A40;
+            //     border-width: 5px;
+            //     height: 540px;
+            //     display: -webkit-flex;
+            //     display: -ms-flex;
+            //     display: flex;
+            //     flex-direction: column;
+            //     align-items: center;
+            //     justify-content: center;
+            //     margin-bottom: 33px;
+            //
+            //     p {
+            //         font-size: 18px;
+            //         font-weight: 400;
+            //         margin-top: 186px;
+            //         width: 405px;
+            //         text-align: justify;
+            //         margin-bottom: 137px;
+            //     }
+            //
+            // }
+            fieldset {
                 border-style: solid;
                 border-color: #F15A40;
                 border-width: 5px;
                 height: 540px;
-                display: -webkit-flex;
-                display: -ms-flex;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
                 margin-bottom: 33px;
+
+                .form_content {
+                    display: -webkit-flex;
+                    display: -ms-flex;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 20%;
+                    height: 100%;
+                }
 
                 p {
                     font-size: 18px;
@@ -105,38 +131,12 @@
                     width: 405px;
                     text-align: justify;
                     margin-bottom: 137px;
-                }
-
-            }
-
-            .btn {
-                position: absolute;
-                bottom: 64px;
-
-                &::before,
-                &::after
-                 {
-                     display: block;
-                     position: relative;
-                    content: '';
-                    width: 30px;
-                    height: 30px;
-                    background-color: #fff;
-                }
-
-                &:before {
-                    top: 18px;
-                    left:-37px;
-                }
-
-                &:after {
-                    top: -14px;
-                    right:-401px;
+                    margin-left: 10%;
                 }
             }
 
             .form-check {
-                .form-check-input{
+                .form-check-input {
                     margin-right: 40px;
                 }
 
@@ -144,13 +144,33 @@
                     text-transform: uppercase;
                 }
             }
-
-
-
         }
 
         .active {
             display: block;
+        }
+    }
+
+    .form-group {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        flex-direction: column;
+        text-align: -webkit-center;
+
+        input {
+            width: 304px;
+            font-size: 16px;
+            font-weight: 400;
+            background: none;
+            border: none;
+            border-bottom: 2px solid #666;
+            padding-left: 11px;
+            margin-bottom: 49px;
+        }
+
+        .btn {
+            margin-bottom:70px;
         }
     }
 }

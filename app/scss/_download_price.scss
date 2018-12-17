@@ -2,6 +2,7 @@
     background-image: url(../img/price-list_bg.jpg);
     background-repeat: no-repeat;
 
+
     h3 {
         margin-top: 71px;
         color:  #f7f7f7;
@@ -16,6 +17,7 @@
         align-items: center;
         margin-bottom: 66px;
 
+
         input {
             width: 304px;
             color:  #f7f7f7;
@@ -25,6 +27,10 @@
             border: none;
             border-bottom: 2px solid #f7f7f7;
             padding-left: 11px;
+
+            &::placeholder {
+                color:  #f7f7f7;
+            }
         }
 
         .btn {
