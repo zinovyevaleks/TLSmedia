@@ -6444,6 +6444,9 @@ strong {
 /*===== Кейсы =====*/
 .cases_left {
   background-image: url("../img/cases_bg-left.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
 }
 
 .cases_left h2 {
@@ -6546,6 +6549,8 @@ strong {
 .cases_right {
   background-image: url("../img/cases_bg-right.jpg");
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
   display: -webkit-flex;
   display: -ms-flex;
   display: -webkit-box;
@@ -6560,7 +6565,6 @@ strong {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 1080px;
 }
 
 .cases_right .media {
@@ -7230,6 +7234,19 @@ strong {
   .principles .card {
     margin-top: 30px;
   }
+  .footer h4 {
+    text-align: center;
+  }
+  .footer .col-lg-4 {
+    text-align: center;
+  }
+  .footer .col-lg-3 {
+    text-align: center;
+  }
+  .footer .col-lg-6 {
+    text-align: center;
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -7344,6 +7361,9 @@ strong {
     text-align: center;
   }
   .footer .col-lg-4 {
+    text-align: center;
+  }
+  .footer .col-lg-3 {
     text-align: center;
   }
   .footer .col-lg-6 {

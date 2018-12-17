@@ -2,6 +2,8 @@
 .cases {
     &_left {
         background-image: url("../img/cases_bg-left.png");
+        background-repeat: no-repeat;
+        background-size: cover;
         // max-height: 1080px;
 
         h2 {
@@ -107,12 +109,13 @@
     &_right {
         background-image: url("../img/cases_bg-right.jpg");
         background-repeat: no-repeat;
+        background-size: cover;
         display: -webkit-flex;
         display: -ms-flex;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 1080px;
+        // height: 1080px;
 
         .media {
             margin-left: 58px;
