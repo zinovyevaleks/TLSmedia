@@ -6902,6 +6902,8 @@ strong {
 .audit {
   background-image: url("../img/audit_bg.jpg");
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
   min-height: 1289px;
 }
 
@@ -6993,6 +6995,7 @@ strong {
 
 .audit .btn {
   margin-top: 21px;
+  margin-bottom: 180px;
 }
 
 .reasons .container {
