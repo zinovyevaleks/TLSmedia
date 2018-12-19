@@ -51,23 +51,28 @@
 			</div>
 			<div class="row justify-content-center header_icons">
 				<div class="col-md-3 text-center">
-					<figure class="figure">
-						<img src="./img/header_icon-web.png" class="figure-img img-fluido" alt="web">
-						<figcaption class="figure-caption">ПРОДАЮЩИЕ САЙТЫ</figcaption>
-					</figure>
+					<a href="#services">
+						<figure class="figure">
+							<img src="./img/header_icon-web.png" class="figure-img img-fluido" alt="web">
+							<figcaption class="figure-caption">ПРОДАЮЩИЕ САЙТЫ</figcaption>
+						</figure>
+					</a>
 				</div>
 				<div class="col-md-3 text-center">
-					<figure class="figure">
-						<img src="./img/header_icon-ad.png" class="figure-img img-fluido" alt="ad">
-						<figcaption class="figure-caption text-center">РЕКЛАМА В ИНТЕРНЕТЕ	</figcaption>
-					</figure>
-
+					<a href="#services">
+						<figure class="figure">
+							<img src="./img/header_icon-ad.png" class="figure-img img-fluido" alt="ad">
+							<figcaption class="figure-caption text-center">РЕКЛАМА В ИНТЕРНЕТЕ </figcaption>
+						</figure>
+					</a>
 				</div>
-				<div class="col-md-3 text-center ">
-					<figure class="figure">
-						<img src="./img/header_icon-logo.png" class="figure-img img-fluido" alt="logo">
-						<figcaption class="figure-caption text-center">СОЗДАНИЕ БРЕНДА</figcaption>
-					</figure>
+				<div class="col-md-3 text-center">
+					<a href="#services">
+						<figure class="figure">
+							<img src="./img/header_icon-logo.png" class="figure-img img-fluido" alt="logo">
+							<figcaption class="figure-caption text-center">СОЗДАНИЕ БРЕНДА</figcaption>
+						</figure>
+					</a> 
 				</div>
 			</div>
 			<div class="row justify-content-center">
@@ -477,7 +482,7 @@
 			<div class="row">
 				<div class="col-12 text-center">
 					<h3 class="">ПОЛУЧИТЕ ПРАЙС ЛИСТ НА ВАШ EMAIL И ОЗНАКОМЬТЕСЬ С ЦЕНАМИ НА УСЛУГИ</h3>
-					<form id="downloadPrice"method="get" action="files/Price_tlsmedia.pdf">
+					<form id="downloadPrice" method="get" action="files/Price_tlsmedia.pdf">
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="TLSmedia">
 						<input type="hidden" name="admin_email" value="zinovyevaleks@yandex.ru">
@@ -551,7 +556,7 @@
 							</div>
 						</div>
 
-						<button class="btn" type="submit">Записаться на аудит</button>
+						<button class="btn" type="submit" data-toggle="modal" data-target="#exampleModalCenter">Записаться на аудит</button>
 					</form>
 				</div>
 				<div class="col-lg-5 offset-lg-1">
@@ -749,6 +754,27 @@
 		</div>
 	</footer>
 
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script src="js/scripts.min.js"></script>
 

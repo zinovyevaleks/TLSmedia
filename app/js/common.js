@@ -48,13 +48,14 @@ $(function() {
 			type: "POST",
 			url: "http://localhost:8888/mail.php",
 			data: th.serialize()
-		}).done(function() {
-			// alert("Thank you!");
-			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
+		}).done(function() {});
+
 	});
+
+    //Плавная прокрутка до якоря
+    $("a[href^='#']").click(function(){
+                var _href = $(this).attr("href");
+                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                return false;
+        });
 });
