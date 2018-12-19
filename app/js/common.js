@@ -2,6 +2,12 @@ $(function() {
 
 	// Custom JS
 
+    //Плавная прокрутка до якоря
+    $(".anchor_link").click(function(){
+                var _href = $(this).attr("href");
+                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                return false;
+        });
 
   $('.audit_card_header').find('a').click(function() {
       if ($(this).parent('.audit_card_header').hasClass('header-red')) {
@@ -52,10 +58,5 @@ $(function() {
 
 	});
 
-    //Плавная прокрутка до якоря    
-    $("a[href^='#']").click(function(){
-                var _href = $(this).attr("href");
-                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
-                return false;
-        });
+
 });
