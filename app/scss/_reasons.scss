@@ -114,10 +114,25 @@
             border-radius: 1%;
             height: 100%;
 
+            img {
+                margin-top: 38px;
+                margin-bottom: 10px;
+                width: 163px;
+                height: 34px;
+            }
+
             p {
                 margin-bottom: 0;
-                font-size: 17.97px;
+                font-size: 18px;
                 font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            .calltoaction {
+                width: 360px;
+                margin-bottom: 0;
+                font-size: 15px;
+                font-weight: 400;
                 text-transform: uppercase;
             }
 
@@ -127,6 +142,34 @@
                 font-size: 30.02px;
                 font-weight: 700;
                 font-style: italic;
+                margin-bottom: 20px;
+            }
+
+            .decoration_line {
+                background-color:  #ed3f48;
+                width: 85px;
+                height: 2px;
+            }
+
+            .decoration_line:last-child {
+                margin-bottom: 10px;
+            }
+
+            a {
+                margin-top: 37px;
+                color:  #eb3349;
+                text-decoration: underline;
+            }
+
+            a:last-child {
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+
+            a:visited {
+                margin-top: 37px;
+                color:  #eb3349;
+                text-decoration: underline;
             }
         }
     }

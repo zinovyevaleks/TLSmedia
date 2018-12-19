@@ -7436,10 +7436,25 @@ strong {
   height: 100%;
 }
 
+.reasons .carousel-description img {
+  margin-top: 38px;
+  margin-bottom: 10px;
+  width: 163px;
+  height: 34px;
+}
+
 .reasons .carousel-description p {
   margin-bottom: 0;
-  font-size: 17.97px;
+  font-size: 18px;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+.reasons .carousel-description .calltoaction {
+  width: 360px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -7449,6 +7464,34 @@ strong {
   font-size: 30.02px;
   font-weight: 700;
   font-style: italic;
+  margin-bottom: 20px;
+}
+
+.reasons .carousel-description .decoration_line {
+  background-color: #ed3f48;
+  width: 85px;
+  height: 2px;
+}
+
+.reasons .carousel-description .decoration_line:last-child {
+  margin-bottom: 10px;
+}
+
+.reasons .carousel-description a {
+  margin-top: 37px;
+  color: #eb3349;
+  text-decoration: underline;
+}
+
+.reasons .carousel-description a:last-child {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.reasons .carousel-description a:visited {
+  margin-top: 37px;
+  color: #eb3349;
+  text-decoration: underline;
 }
 
 .principles {
