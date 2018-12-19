@@ -92,6 +92,23 @@
 
     .modal-dialog {
         max-width: 58vw;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        flex-direction: column;
+
+        .modal_bubble-top {
+            position: relative;
+            z-index: 999;
+            margin-bottom: -180px ;
+            left: 29vw;
+        }
+        .modal_bubble-bottom {
+            position: relative;
+            z-index: 999;
+            margin-top: -140px ;
+            right: 28vw;
+        }
 
         .modal-content {
             background-image: url("../img/popup_bg.jpg");
@@ -118,7 +135,7 @@
             }
 
             .modal-body {
-                
+
                     display: -webkit-flex;
                     display: -ms-flex;
                     display: flex;
