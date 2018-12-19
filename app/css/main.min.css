@@ -6445,12 +6445,12 @@ tbody.collapse.show {
 }
 
 ::-moz-selection {
-  background-color: orange;
+  background-color: #eb3349;
   color: #fff;
 }
 
 ::selection {
-  background-color: orange;
+  background-color: #eb3349;
   color: #fff;
 }
 
