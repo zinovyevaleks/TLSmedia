@@ -77,7 +77,7 @@
 			</div>
 			<div class="row justify-content-center">
 
-				<a href="files/Price_tlsmedia.pdf" role="button" class="btn header_button">Получить прайс лист</a>
+				<a href="#price" role="button" class="btn header_button anchor_link">Получить прайс лист</a>
 
 			</div>
 			<div class="row justify-content-center">
@@ -477,7 +477,7 @@
 	</section>
 
 	<!-- Секция Скачать прайс-лист -->
-	<section class="download_price">
+	<section class="download_price" id="price">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
@@ -509,53 +509,87 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
-					<form action="#">
-						<div class="accordion" id="accordionAudit">
-							<div class="card">
-								<div class="audit_card_header header-red" id="audit_site">
-									<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-									<a class="" href="#audit_site" data-toggle="collapse" data-target="#collapseFour">АУДИТ СТРУКТУРЫ САЙТА</a>
-								</div>
+					<form action="#" id="auditForm">
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="TLSmedia">
+						<input type="hidden" name="admin_email" value="zinovyevaleks@yandex.ru">
+						<input type="hidden" name="form_subject" value="Заявка на аудит">
+						<!-- END Hidden Required Fields -->
+					
+							<div class="accordion" id="accordionAudit">
+								<div class="card">
+									<div class="audit_card_header header-red" id="audit_site">
+										<input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="АУДИТ СТРУКТУРЫ САЙТА" value="">
+										<a class="" href="#audit_site" data-toggle="collapse" data-target="#collapseFour">АУДИТ СТРУКТУРЫ САЙТА</a>
+									</div>
 
-								<div id="collapseFour" class="collapse show" data-parent="#accordionAudit">
-									<div class="card-body">
-										Проведение комплексного аудита поможет обнаружить и устранить ошибки, а главное увеличить продажи вашего сайта. В ходе аудита проверяем:
-										1. Юзабилити интерфейса, удобство навигации, структуру сайта.
-										2. Технические ошибки: скорость загрузки, програмный код, seo оптимизацию.
-										Отчет содержит все ошибки и рекомендации по увеличению конверсии сайта. А именно: технический анализ , юзабилити анализ, маркетинговый анализ и рекомендации.
+									<div id="collapseFour" class="collapse show" data-parent="#accordionAudit">
+										<div class="card-body">
+											Проведение комплексного аудита поможет обнаружить и устранить ошибки, а главное увеличить продажи вашего сайта. В ходе аудита проверяем:
+											1. Юзабилити интерфейса, удобство навигации, структуру сайта.
+											2. Технические ошибки: скорость загрузки, програмный код, seo оптимизацию.
+											Отчет содержит все ошибки и рекомендации по увеличению конверсии сайта. А именно: технический анализ , юзабилити анализ, маркетинговый анализ и рекомендации.
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="card">
-								<div class="audit_card_header" id="audit_ad">
-									<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-									<a class="collapsed" href="#audit_ad" data-toggle="collapse" data-target="#collapseFive">
-										АУДИТ РЕКЛАМНОЙ КОМПАНИИ
-									</a>
+								<div class="card">
+									<div class="audit_card_header" id="audit_ad">
+										<input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="АУДИТ РЕКЛАМНОЙ КОМПАНИИ" value="">
+										<a class="collapsed" href="#audit_ad" data-toggle="collapse" data-target="#collapseFive">
+											АУДИТ РЕКЛАМНОЙ КОМПАНИИ
+										</a>
 
+									</div>
+									<div id="collapseFive" class="collapse" data-parent="#accordionAudit">
+										<div class="card-body">
+											Проводим аудит контекстной рекламы по 113 параметрам. Аудит таргетированной рекламы в соцсетях по 86 параметрам. В отчете все ошибки и рекомендации по увеличению количества заявок и оптимизации их стоимости.
+										</div>
+									</div>
 								</div>
-								<div id="collapseFive" class="collapse" data-parent="#accordionAudit">
-									<div class="card-body">
-										Проводим аудит контекстной рекламы по 113 параметрам. Аудит таргетированной рекламы в соцсетях по 86 параметрам. В отчете все ошибки и рекомендации по увеличению количества заявок и оптимизации их стоимости.
+								<div class="card">
+									<div class="audit_card_header" id="audit_sales">
+										<input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="АУДИТ ОТЕДЛА ПРОДАЖ" value="">
+										<a class="collapsed" href="#audit_sales" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+											АУДИТ ОТЕДЛА ПРОДАЖ
+										</a>
+									</div>
+									<div id="collapseSix" class="collapse" data-parent="#accordionAudit">
+										<div class="card-body">
+											Аудит вашего отдела продаж вклчает в себя аудит сайта, прозвон телефонов, заявки с сайта, email сообщений, аудит скрипта звонка, воронки продаж, CRM системы, орг. структуры отдела продаж, системы мотивации, KPI, проверка индекса лояльности
+											клиентов NPS, маркетинг кита. В отчете все ошибки и дорожная карта по построению эффективного отдела продаж.
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="card">
-								<div class="audit_card_header" id="audit_sales">
-									<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-									<a class="collapsed" href="#audit_sales" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-										АУДИТ ОТЕДЛА ПРОДАЖ
-									</a>
-								</div>
-								<div id="collapseSix" class="collapse" data-parent="#accordionAudit">
-									<div class="card-body">
-										Аудит вашего отдела продаж вклчает в себя аудит сайта, прозвон телефонов, заявки с сайта, email сообщений, аудит скрипта звонка, воронки продаж, CRM системы, орг. структуры отдела продаж, системы мотивации, KPI, проверка индекса лояльности
-										клиентов NPS, маркетинг кита. В отчете все ошибки и дорожная карта по построению эффективного отдела продаж.
-									</div>
-								</div>
+
+							<!-- Второе модальное окно -->
+							<div class="modal fade" id="auditModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h3 class="modal-title" id="exampleModalLongTitle">Получите предварительный расчет<br>
+									для вашего проекта.</h3>
+									<p>Наш менеджер свяжется с вами в течении 15 минут</p>
+							        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button> -->
+							      </div>
+							      <div class="modal-body">
+
+									  	<input type="tel" class="phone" name="Телефон" aria-describedby="emailHelp" placeholder="Ваш номер телефона" required>
+										<input type="email" class="email" name="Email" aria-describedby="emailHelp" placeholder="Ваш E-mail" required>
+
+							      </div>
+							      <div class="modal-footer">
+
+							        <button form="auditForm" type="submit" class="btn">Получить расчет</button>
+							      </div>
+							    </div>
+							  </div>
 							</div>
-						</div>
-						<button class="btn" type="submit" data-toggle="modal" data-target="#exampleModalCenter">Записаться на аудит</button>
+
+
+						<button class="btn" type="button" data-toggle="modal" data-target="#auditModal">Записаться на аудит</button>
 					</form>
 				</div>
 				<div class="col-lg-5 offset-lg-1">

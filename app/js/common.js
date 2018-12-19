@@ -58,5 +58,21 @@ $(function() {
 
 	});
 
+    $("#auditForm").submit(function() {
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "http://localhost:8888/mail.php",
+			data: th.serialize()
+		}).done(function() {
+			alert("Thank you!");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
 
 });

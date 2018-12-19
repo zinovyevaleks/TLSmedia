@@ -34,7 +34,6 @@
     }
 
     .audit_card_header {
-
         display: -webkit-flex;
         display: -ms-flex;
         display: flex;
@@ -43,9 +42,6 @@
         box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
         margin-bottom: 21px;
         height: 72px;
-
-
-
 
         input {
             margin-right: 40px;
@@ -58,19 +54,16 @@
             font-size: 21.01px;
             font-weight: 700;
         }
-
-
     }
 
     .header-red {
-        background-color:  #eb3349;
+        background-color: #eb3349;
     }
 
     .card-body {
         // z-index: 10;
         // margin-top: -21px;
         margin-bottom: 21px;
-
         padding: 30px 49px;
         border-radius: 12px;
         box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
@@ -87,7 +80,6 @@
             display: none;
         }
 
-
         .show {
             display: block;
         }
@@ -96,5 +88,68 @@
     .btn {
         margin-top: 21px;
         margin-bottom: 180px;
+    }
+
+    .modal-dialog {
+        max-width: 58vw;
+
+        .modal-content {
+            background-image: url("../img/popup_bg.jpg");
+            background-repeat: no-repeat;
+
+            .modal-header {
+                display: -webkit-flex;
+                display: -ms-flex;
+                display: flex;
+                flex-direction: column;
+                border: none;
+
+                h3 {
+                    margin: 0 auto;
+                    font-size: 36px;
+                    text-align: center;
+                    text-transform: none;
+                    margin-bottom: 34px;
+                }
+
+                p {
+                    margin: 0 auto;
+                }
+            }
+
+            .modal-body {
+                
+                    display: -webkit-flex;
+                    display: -ms-flex;
+                    display: flex;
+                    flex-direction: column;
+
+                    input {
+                        margin: auto;
+                        border: none;
+                        border-radius: 6px;
+                        background-color: #f7f7f7;
+                        width: 543px;
+                        height: 72px;
+                        margin-bottom: 24px;
+                        box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.18);
+                        padding-left: 40px;
+
+                    }
+
+
+
+
+            }
+
+            .modal-footer {
+                justify-content: center;
+                border: none;
+
+                .btn {
+                    margin-bottom: 86px;
+                }
+            }
+        }
     }
 }
