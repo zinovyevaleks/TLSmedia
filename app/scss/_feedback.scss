@@ -19,4 +19,17 @@
     .btn {
         margin-bottom: 107px;
     }
+
+    .modal-dialog {
+        max-width: 50vw;
+    }
+
+    .modal-header .close {
+        -webkit-appearence: none;
+        border: none;
+
+        span {
+            font-size: 30px;
+        }
+    }
 }

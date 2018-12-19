@@ -7089,6 +7089,19 @@ strong {
   margin-bottom: 107px;
 }
 
+.feedback .modal-dialog {
+  max-width: 50vw;
+}
+
+.feedback .modal-header .close {
+  -webkit-appearence: none;
+  border: none;
+}
+
+.feedback .modal-header .close span {
+  font-size: 30px;
+}
+
 .audit {
   background-image: url("../img/audit_bg.jpg");
   background-repeat: no-repeat;
