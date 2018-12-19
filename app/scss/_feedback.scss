@@ -24,12 +24,16 @@
         max-width: 50vw;
     }
 
-    .modal-header .close {
-        -webkit-appearence: none;
-        border: none;
+    .modal-header{
+         border: none;
+        .close {
+           -webkit-appearence: none;
+           border: none;
 
-        span {
-            font-size: 30px;
-        }
+           span {
+               font-size: 30px;
+           }
+       }
     }
+
 }

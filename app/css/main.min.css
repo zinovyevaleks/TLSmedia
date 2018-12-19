@@ -7093,6 +7093,10 @@ strong {
   max-width: 50vw;
 }
 
+.feedback .modal-header {
+  border: none;
+}
+
 .feedback .modal-header .close {
   -webkit-appearence: none;
   border: none;
