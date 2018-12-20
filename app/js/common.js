@@ -38,6 +38,7 @@ $(function() {
 			url: "http://localhost:8888/mail.php",
 			data: th.serialize()
 		}).done(function() {
+            dataLayer.push({'event': 'formzayavka1'});
 			alert("Thank you!");
 			setTimeout(function() {
 				// Done Functions
@@ -65,6 +66,7 @@ $(function() {
 			url: "http://localhost:8888/mail.php",
 			data: th.serialize()
 		}).done(function() {
+            dataLayer.push({'event': 'formzayavka2'});
 			alert("Thank you!");
 			setTimeout(function() {
 				// Done Functions
