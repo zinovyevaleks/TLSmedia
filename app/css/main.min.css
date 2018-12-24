@@ -7777,4 +7777,26 @@ strong {
   }
 }
 
+@media (max-width: 575.98px) {
+  .btn {
+    width: 284px;
+  }
+  .header h1 {
+    font-size: 21px;
+  }
+  .header p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .cases .card-body {
+    padding-left: 0;
+  }
+  .cases_right .media {
+    margin-left: 10px;
+  }
+  .services h2 {
+    font-size: 54px;
+  }
+}
+
 /*==========  Mobile First  ==========*/

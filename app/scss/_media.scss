@@ -9,8 +9,6 @@
 	}
 
 	.footer {
-
-
 		h4 {
 			text-align: center;
 		}
@@ -28,7 +26,6 @@
 			margin-top: 40px;
 		}
 	}
-
 }
 // ≥768px
 @include media-breakpoint-down(sm) {
@@ -197,7 +194,32 @@
 	}
 }
 // ≥576px
-@include media-breakpoint-down(xs) {}
+@include media-breakpoint-down(xs) {
+	.btn {
+		width: 284px;
+	}
+
+	.header h1 {
+		font-size: 21px;
+	}
+
+	.header p {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.cases .card-body {
+		padding-left: 0;
+	}
+
+	.cases_right .media {
+		margin-left: 10px;
+	}
+
+	.services h2 {
+		font-size: 54px;
+	}
+}
 /*==========  Mobile First  ==========*/
 // ≤576px
 @include media-breakpoint-up(sm) {}
