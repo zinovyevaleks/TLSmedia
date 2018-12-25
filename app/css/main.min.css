@@ -7474,13 +7474,13 @@ strong {
   margin-bottom: 10px;
 }
 
-.reasons .carousel-description a {
+.reasons .carousel-description .other_studio {
   margin-top: 37px;
   color: #eb3349;
   text-decoration: underline;
 }
 
-.reasons .carousel-description a:last-child {
+.reasons .carousel-description .other_studio:last-child {
   margin-top: 10px;
   margin-bottom: 30px;
 }
