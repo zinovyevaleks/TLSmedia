@@ -3,12 +3,31 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+    .contacts-block {
+        padding-top: 100px;
+
+        p {
+            margin-bottom: 0;
+        }
+        .adress {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+        }
+
+        a {
+            text-decoration: none;
+                color: #141414;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 22px;
+        }
+    }
+
     .logo {
         display: -webkit-flex;
         display: -ms-flex;
         display: flex;
         justify-content: center;
-        margin-top: 177px;
+        margin-top: 150px;
         margin-bottom: 44px;
     }
 

@@ -6533,6 +6533,26 @@ strong {
   background-repeat: no-repeat;
 }
 
+.header .contacts-block {
+  padding-top: 100px;
+}
+
+.header .contacts-block p {
+  margin-bottom: 0;
+}
+
+.header .contacts-block .adress {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+
+.header .contacts-block a {
+  text-decoration: none;
+  color: #141414;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+
 .header .logo {
   display: -webkit-flex;
   display: -ms-flex;
@@ -6543,7 +6563,7 @@ strong {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 177px;
+  margin-top: 150px;
   margin-bottom: 44px;
 }
 
