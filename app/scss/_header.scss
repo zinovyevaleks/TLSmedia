@@ -9,6 +9,7 @@
         p {
             margin-bottom: 0;
         }
+
         .adress {
             font-family: 'Montserrat', sans-serif;
             font-size: 22px;
@@ -16,9 +17,9 @@
 
         a {
             text-decoration: none;
-                color: #141414;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 22px;
+            color: #141414;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
         }
     }
 
@@ -53,22 +54,19 @@
         margin-top: 10px;
     }
 
-
     .figure {
-
         &:hover {
-
             cursor: pointer;
         }
 
-         .figure-img {
+        .figure-img {
             margin: 0 auto;
             border: 5px solid transparent;
             border-radius: 100px;
             padding: 13px;
 
             &:hover {
-                transition: .8s;
+                transition: 0.8s;
                 border-color: red;
             }
         }
@@ -94,18 +92,19 @@
         align-items: center;
         margin-top: 75px;
     }
+
     &_button:hover {
         color: #fff;
         text-decoration: none;
     }
 
     &_button:focus {
-            outline-color:#FDB289;
+        outline-color: #FDB289;
     }
 
     &_button:active {
-            color: #fff;
-            text-decoration: none;
+        color: #fff;
+        text-decoration: none;
     }
 
     .results {
@@ -124,6 +123,5 @@
             font-size: 16px;
             font-weight: 700;
         }
-
     }
 }

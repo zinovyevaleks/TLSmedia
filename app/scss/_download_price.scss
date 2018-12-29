@@ -1,11 +1,10 @@
 .download_price {
-    background-image: url(../img/price-list_bg.jpg);
+    background-image: url("../img/price-list_bg.jpg");
     background-repeat: no-repeat;
-
 
     h3 {
         margin-top: 71px;
-        color:  #f7f7f7;
+        color: #f7f7f7;
         margin-bottom: 80px;
     }
 
@@ -17,10 +16,9 @@
         align-items: center;
         margin-bottom: 66px;
 
-
         input {
             width: 304px;
-            color:  #f7f7f7;
+            color: #f7f7f7;
             font-size: 16px;
             font-weight: 400;
             background: none;
@@ -29,7 +27,7 @@
             padding-left: 11px;
 
             &::placeholder {
-                color:  #f7f7f7;
+                color: #f7f7f7;
             }
         }
 

@@ -11,8 +11,6 @@
 	color: #fff;
 }
 
-
-
 body {
 	font-size: 16px;
 	min-width: 320px;
@@ -22,24 +20,26 @@ body {
 	overflow-x: hidden;
 	color: $text;
 
-	input, textarea {
+	input,
+	textarea {
 		border: #666 1px solid;
 		outline: none;
+
 		&:focus:required:invalid {
 			border-color: red;
 		}
+
 		&:required:valid {
 			border-color: green;
 		}
 	}
-
-
 }
 
 .img-responsive {
 	display: block;
 	max-width: 100%;
 	height: auto;
+
 	&.img-width {
 		width: 100%;
 	}
@@ -50,38 +50,36 @@ body {
 }
 
 .btn {
-    width: 408px;
-    height: 85px;
-    background-image: linear-gradient(0.0deg, #de6262 0%, #ffb88c 100%);
-    // box-shadow: 0 3px 1px 0 rgba(0,0,0,0.2);
-	border:none;
-    border-radius: 41.0px;
-    color: #f7f7f7;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 22px;
+	width: 408px;
+	height: 85px;
+	background-image: linear-gradient(0.0deg, #de6262 0%, #ffb88c 100%);
+	// box-shadow: 0 3px 1px 0 rgba(0,0,0,0.2);
+	border: none;
+	border-radius: 41.0px;
+	color: #f7f7f7;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 22px;
 
+	&:hover {
+		cursor: pointer;
+	}
 
-    &:hover {
-        cursor: pointer;
-    }
-    &:active {
-        background-color:  #ce2029;
-        background-image: none;
+	&:active {
+		background-color: #ce2029;
+		background-image: none;
 		outline: none;
-    }
+	}
+
 	&:focus {
 		outline: none;
 	}
 }
 
-b, strong {
+b,
+strong {
 	font-weight: bold;
 }
-
-
-
-
 @import '_header.scss';
 @import '_cases.scss';
 @import "_presentation.scss";

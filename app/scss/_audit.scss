@@ -100,13 +100,14 @@
         .modal_bubble-top {
             position: relative;
             z-index: 999;
-            margin-bottom: -180px ;
+            margin-bottom: -180px;
             left: 29vw;
         }
+
         .modal_bubble-bottom {
             position: relative;
             z-index: 999;
-            margin-top: -140px ;
+            margin-top: -140px;
             right: 28vw;
         }
 
@@ -135,28 +136,22 @@
             }
 
             .modal-body {
+                display: -webkit-flex;
+                display: -ms-flex;
+                display: flex;
+                flex-direction: column;
 
-                    display: -webkit-flex;
-                    display: -ms-flex;
-                    display: flex;
-                    flex-direction: column;
-
-                    input {
-                        margin: auto;
-                        border: none;
-                        border-radius: 6px;
-                        background-color: #f7f7f7;
-                        width: 543px;
-                        height: 72px;
-                        margin-bottom: 24px;
-                        box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.18);
-                        padding-left: 40px;
-
-                    }
-
-
-
-
+                input {
+                    margin: auto;
+                    border: none;
+                    border-radius: 6px;
+                    background-color: #f7f7f7;
+                    width: 543px;
+                    height: 72px;
+                    margin-bottom: 24px;
+                    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.18);
+                    padding-left: 40px;
+                }
             }
 
             .modal-footer {

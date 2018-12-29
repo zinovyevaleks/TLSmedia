@@ -1,5 +1,5 @@
 .map {
-    background-image: url(../img/map_bg.jpg);
+    background-image: url("../img/map_bg.jpg");
     background-position-x: left;
     background-position-y: top;
     background-repeat: no-repeat;
@@ -10,7 +10,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
 
         h2 {
             color: #eb3349;
@@ -26,6 +25,4 @@
             height: 62px;
         }
     }
-
-
 }

@@ -1,10 +1,10 @@
 .feedback {
-    background-image: url(../img/feedback_bg.jpg);
+    background-image: url("../img/feedback_bg.jpg");
     background-repeat: no-repeat;
 
     h2 {
         margin-top: 71px;
-        color:  #f7f7f7;
+        color: #f7f7f7;
         margin-bottom: 21px;
         font-size: 36px;
     }
@@ -24,16 +24,16 @@
         max-width: 50vw;
     }
 
-    .modal-header{
-         border: none;
+    .modal-header {
+        border: none;
+
         .close {
-           -webkit-appearence: none;
-           border: none;
+            -webkit-appearence: none;
+            border: none;
 
-           span {
-               font-size: 30px;
-           }
-       }
+            span {
+                font-size: 30px;
+            }
+        }
     }
-
-}
+}    
