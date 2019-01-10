@@ -6480,7 +6480,7 @@ body textarea:required:valid {
 
 .btn {
   width: 408px;
-  height: 85px;
+  height: 83px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#de6262), to(#ffb88c));
   background-image: -webkit-linear-gradient(bottom, #de6262 0%, #ffb88c 100%);
   background-image: -o-linear-gradient(bottom, #de6262 0%, #ffb88c 100%);
@@ -7521,6 +7521,7 @@ strong {
   border-width: 5px;
   border-style: solid;
   border-color: #fff;
+  height: 100%;
 }
 
 .principles .card-head {
@@ -7598,6 +7599,11 @@ strong {
   margin-left: 20px;
   width: 62px;
   height: 62px;
+}
+
+.map_content {
+  width: 100%;
+  height: 500px;
 }
 
 .footer {
