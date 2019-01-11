@@ -70,6 +70,7 @@ $(function() {
 
 	});
 
+    //заявка на аудит
     $("#auditForm").submit(function() {
 		var th = $(this);
 		$.ajax({
