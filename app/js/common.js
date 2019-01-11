@@ -48,6 +48,17 @@ $(function() {
 		return false;
 	});
 
+    //Скачать презентация
+    $("#downloadPresentation").submit(function() {
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "http://localhost:8888/mail.php",
+			data: th.serialize()
+		}).done(function() {});
+
+	});
+
     //Скачать прайс
     $("#downloadPrice").submit(function() {
 		var th = $(this);

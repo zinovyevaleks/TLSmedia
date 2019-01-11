@@ -6825,7 +6825,56 @@ strong {
 }
 
 .presentation .btn {
+  margin-top: 49px;
   margin-bottom: 114px;
+}
+
+.presentation form {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presentation form input {
+  width: 304px;
+  color: #f7f7f7;
+  font-size: 16px;
+  font-weight: 400;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #f7f7f7;
+  padding-left: 11px;
+}
+
+.presentation form input::-webkit-input-placeholder {
+  color: #f7f7f7;
+}
+
+.presentation form input::-moz-placeholder {
+  color: #f7f7f7;
+}
+
+.presentation form input:-ms-input-placeholder {
+  color: #f7f7f7;
+}
+
+.presentation form input::-ms-input-placeholder {
+  color: #f7f7f7;
+}
+
+.presentation form input::placeholder {
+  color: #f7f7f7;
 }
 
 .services {

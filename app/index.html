@@ -216,7 +216,14 @@
 			<div class="row">
 				<div class="col-12 text-center">
 					<p class="">Наша главная цель донести идею, которая закрепится в сознании клиента. Покажет выгоду сотрудничества, отбросит сомнения и поможет сделать правильный выбор.</p>
-					<form action="files/TLS.media - presentation.pdf" target="_blank">
+					<form id="downloadPresentation" method="get" action="files/TLS.media - presentation.pdf" target="_blank">
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="TLSmedia">
+						<input type="hidden" name="admin_email" value="zakaz@tls.media">
+						<input type="hidden" name="form_subject" value="Презентация скачана!">
+						<!-- END Hidden Required Fields -->
+
+						<input type="email" name="E-mail" placeholder="введите ваш e-mail" required>
 						<button class="btn" type="submit">Скачать презентацию</button>
 					</form>
 				</div>
