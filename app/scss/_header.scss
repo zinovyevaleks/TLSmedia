@@ -4,7 +4,13 @@
     background-repeat: no-repeat;
 
     .contacts-block {
-        padding-top: 100px;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-top: 40px;
 
         p {
             margin-bottom: 0;
@@ -27,8 +33,8 @@
         display: -webkit-flex;
         display: -ms-flex;
         display: flex;
-        justify-content: center;
-        margin-top: 150px;
+        justify-content: flex-end;
+        margin-top: 40px;
         margin-bottom: 44px;
     }
 
