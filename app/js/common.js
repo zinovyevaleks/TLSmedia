@@ -9,6 +9,8 @@ $(function() {
                 return false;
         });
 
+        // Переключение цветов активных хэдеров карточек в Аудите
+
   $('.audit_card_header').find('a').click(function() {
       if ($(this).parent('.audit_card_header').hasClass('header-red')) {
           $(this).parent('.audit_card_header').removeClass('header-red');
@@ -48,7 +50,7 @@ $(function() {
 		return false;
 	});
 
-    //Скачать презентация
+    //Скачать презентацию
     $("#downloadPresentation").submit(function() {
 		var th = $(this);
 		$.ajax({
