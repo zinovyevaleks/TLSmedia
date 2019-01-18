@@ -6445,7 +6445,7 @@ body {
   line-height: 1.65;
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
-  color: rgba(20, 20, 20, 0.48);
+  color: #141414;
 }
 
 body input,
@@ -6583,9 +6583,10 @@ strong {
 }
 
 .header p {
-  font-size: 30px;
+  font-size: 29.97px;
   line-height: 42px;
-  font-weight: 500;
+  font-weight: 400;
+  line-height: 33.965px;
   letter-spacing: 0.025em;
   text-align: center;
   margin-bottom: 48px;
