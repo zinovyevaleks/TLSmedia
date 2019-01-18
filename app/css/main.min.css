@@ -6445,7 +6445,7 @@ body {
   line-height: 1.65;
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
-  color: #000;
+  color: rgba(20, 20, 20, 0.48);
 }
 
 body input,
@@ -6579,6 +6579,7 @@ strong {
   font-weight: 900;
   text-align: center;
   letter-spacing: 0.075em;
+  text-transform: uppercase;
 }
 
 .header p {
@@ -7374,10 +7375,11 @@ strong {
   margin-bottom: 86px;
 }
 
-.reasons .container {
+.reasons {
   background-image: url("../img/reasons_bg.png");
   background-repeat: no-repeat;
   background-position-y: 91px;
+  background-position-x: 130px;
 }
 
 .reasons h2 {
