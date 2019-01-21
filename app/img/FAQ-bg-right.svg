@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="792px" height="1385px" viewBox="0 0 792 1385">
+<filter filterUnits="objectBoundingBox" x="-1.80" y="-0.88" width="103.34" height="101.75" id="filter0">
+<feGaussianBlur in="SourceAlpha" stdDeviation="6.00" result="dsBlurOut1"/>
+<feFlood flood-color="rgb(0,0,0)" flood-opacity="0.21" result="dsFloodOut1"/>
+<feComposite in="dsFloodOut1" in2="dsBlurOut1" operator="in" result="dsShadow1"/>
+<feOffset in="dsShadow1" dx="-6.00" dy="-0.00" result="dsOffset1"/>
+<feComposite in="dsOffset1" in2="SourceAlpha" operator="out" result="dropShadow1"/>
+<feBlend in="dropShadow1" in2="SourceGraphic" mode="normal" result="sourceGraphic"/>
+<feImage x="14" y="6" width="778" height="1369" preserveApectRatio="none" xlink:href="#symbol0"/>
+<feComposite in="grImage1" in2="SourceAlpha" operator="in" result="grOverlay1"/>
+<feBlend in="grOverlay1" in2="sourceGraphic" mode="normal" result="gradientOverlay1"/>
+</filter>
+<linearGradient id="linear_PSgrad_0" x1="0%" y1="78.8675%" x2="100%" y2="21.1325%">
+    <stop offset="0%" stop-color="rgb(235,51,73)" stop-opacity="1" />
+    <stop offset="100%" stop-color="rgb(243,91,67)" stop-opacity="1" />
+</linearGradient>
+
+<defs>
+<rect x="0" y="0" width="778" height="1369" id="symbol0" fill="url(#linear_PSgrad_0)"/></defs>
+<path fillRule="evenodd" d="M 792 6C 792 6 792 1375 792 1375 792 1375 14 1375 14 1375 14 1375 792 6 792 6Z" fill="rgb(255,255,255)" filter="url(#filter0)"/></svg>

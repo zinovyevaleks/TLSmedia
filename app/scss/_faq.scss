@@ -1,0 +1,131 @@
+.faq {
+    background: url("../img/FAQ-bg-left.svg") -10px 0, url("../img/FAQ-bg-right.svg") 100% 0;
+    background-repeat: no-repeat;
+    background-size: auto,cover;
+    padding-bottom: 109px;
+
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        background: linear-gradient(60deg, #de6776 20%, #f98461 53%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 50px;
+        font-size: 115px;
+        font-weight: 900;
+        line-height: 34.276px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 205px;
+        height: 112px;
+    }
+
+    h3 {
+        font-size: 28px;
+        font-weight: 900;
+        margin-top: -36px;
+        margin-left: 174px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 21px;
+        margin-bottom: 111px;
+        font-weight: 300;
+    }
+
+    .btn-accordion {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 12px;
+        box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
+        margin-bottom: 21px;
+        height: 72px;
+        padding-left: 38px;
+        padding-right: 30px;
+        background-image: none;
+        width: 100%;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #eb3349;
+
+        .card-icon {
+            width: 28px;
+            height: 17px;
+            background-image: url("../img/services-close-icon-white.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        &.collapsed {
+            background-color: #fff;
+            color: #141414;
+
+            .card-icon {
+                background-image: url("../img/services-open-icon.png");
+            }
+        }
+
+    }
+
+    .card-body {
+        margin-bottom: 21px;
+        padding: 30px 49px;
+        border-radius: 12px;
+        box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
+        background-color: #fff;
+    }
+
+    .faq-form {
+        border-radius: 12px;
+        background-color: #f7f7f7;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-align: -webkit-center;
+        box-shadow: inset 0 3px 9px 4px #0000002e;
+        overflow: auto;
+
+        .btn {
+            margin-bottom: 30px;
+            width: 80%;
+        }
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 48px;
+        margin-bottom: 30px;
+        width: 80%;
+
+
+        span {
+            color: #eb3349;
+        }
+    }
+
+    .form-control {
+        border-radius: 12px;
+        border: none;
+        box-shadow: inset 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
+        height: 65px;
+        width: 80%;
+        padding-left: 26px;
+    }
+
+    .form-email {
+        margin-bottom: 15px;
+    }
+
+    .form-text {
+        margin-bottom: 10px;
+        min-height: 191px;
+        padding-top: 26px;
+    }
+
+
+}

@@ -2,6 +2,8 @@ $(function() {
 
 	// Custom JS
 
+
+
     //Плавная прокрутка до якоря
     $(".anchor_link").click(function(){
                 var _href = $(this).attr("href");
@@ -30,6 +32,7 @@ $(function() {
           $('#audit_site_img').addClass('show');
       }
     });
+
 
     //E-mail Ajax Send
     //Форма заказа
@@ -74,6 +77,24 @@ $(function() {
 
     //заявка на аудит
     $("#auditForm").submit(function() {
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "http://localhost:8888/mail.php",
+			data: th.serialize()
+		}).done(function() {
+            dataLayer.push({'event': 'formzayavka2'});
+			alert("Thank you!");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
+    //FAQ
+    $("#faqForm").submit(function() {
 		var th = $(this);
 		$.ajax({
 			type: "POST",
