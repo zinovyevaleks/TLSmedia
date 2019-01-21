@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    .anchor_link {
+    a{
         text-decoration: underline;
         color: #141414;
     }
@@ -28,7 +28,6 @@
 
         a {
             text-decoration: none;
-            color: #141414;
             font-family: 'Montserrat', sans-serif;
             font-size: 22px;
         }
@@ -104,6 +103,9 @@
         justify-content: center;
         align-items: center;
         margin-top: 75px;
+        color: #fff!important;
+        text-decoration: none!important;
+
     }
 
     &_button:hover {
@@ -137,4 +139,5 @@
             font-weight: 700;
         }
     }
+
 }

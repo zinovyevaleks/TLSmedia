@@ -1,7 +1,7 @@
 .faq {
     background: url("../img/FAQ-bg-left.svg") -10px 0, url("../img/FAQ-bg-right.svg") 100% 0;
     background-repeat: no-repeat;
-    background-size: auto,cover;
+    background-size: contain,cover;
     padding-bottom: 109px;
 
     h2 {
