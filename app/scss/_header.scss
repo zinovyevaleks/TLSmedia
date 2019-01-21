@@ -3,6 +3,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+    .anchor_link {
+        text-decoration: underline;
+        color: #141414;
+    }
+
     .contacts-block {
         display: -webkit-flex;
         display: -ms-flex;

@@ -6520,6 +6520,11 @@ strong {
   background-repeat: no-repeat;
 }
 
+.header .anchor_link {
+  text-decoration: underline;
+  color: #141414;
+}
+
 .header .contacts-block {
   display: -webkit-flex;
   display: -ms-flex;
