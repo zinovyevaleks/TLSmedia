@@ -37,32 +37,54 @@
         display: -webkit-flex;
         display: -ms-flex;
         display: flex;
+        justify-content: space-between;
         align-items: center;
         border-radius: 12px;
         box-shadow: 3px 3px 16px 0 rgba(0, 0, 0, 0.21);
         margin-bottom: 21px;
         height: 72px;
+        padding-left: 38px;
+        padding-right: 30px;
 
-        input {
-            margin-right: 40px;
-            margin-left: 20px;
-        }
 
         a {
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             color: #000;
             text-decoration: none;
             font-size: 21.01px;
             font-weight: 700;
+            height: 100%;
+            width: 100%;
         }
+
+        .card-icon {
+            width: 28px;
+            height: 17px;
+            background-image: url("../img/services-open-icon.png");
+
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
     }
 
     .header-red {
         background-color: #eb3349;
+
+        .card-icon {
+            background-image: url("../img/services-close-icon-white.png");
+        }
+
+        a {
+            color: #fff;
+        }
     }
 
     .card-body {
-        // z-index: 10;
-        // margin-top: -21px;
         margin-bottom: 21px;
         padding: 30px 49px;
         border-radius: 12px;

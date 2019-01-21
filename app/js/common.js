@@ -13,12 +13,12 @@ $(function() {
 
         // Переключение цветов активных хэдеров карточек в Аудите
 
-  $('.audit_card_header').find('a').click(function() {
-      if ($(this).parent('.audit_card_header').hasClass('header-red')) {
-          $(this).parent('.audit_card_header').removeClass('header-red');
+  $('.audit_card_header').click(function() {
+      if ($(this).hasClass('header-red')) {
+          $(this).removeClass('header-red');
       }else{
           $('.audit_card_header').removeClass('header-red');
-          $(this).parent('.audit_card_header').addClass('header-red');
+          $(this).addClass('header-red');
       }
 
       if ($('#audit_ad').hasClass('header-red')) {
