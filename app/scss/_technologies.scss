@@ -1,0 +1,86 @@
+.technologies {
+    background-image:   url(../img/tech-bg-top-left.png),
+                        url(../img/tech-element-top-right.png),
+                        url(../img/tech-bg-bottom-left.png),
+                        url(../img/tech-bg-bottom-right.png);
+    background-repeat: no-repeat;
+    background-position: left top, right top, left bottom, right 110%;
+    padding-bottom: 303px;
+
+    h4 {
+        color: #ed3f47;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 34.276px;
+        text-transform: uppercase;
+        margin-top: 55px;
+        margin-bottom: 18px;
+    }
+
+    p {
+        font-size: 21px;
+        margin-bottom: 144px;
+        font-weight: lighter;
+        font-weight: 300;
+    }
+
+    .btn-collapse {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        background-image: none;
+        color: #ed3f47;
+        position: relative;
+        z-index: 9;
+
+
+        &-left {
+            justify-content: flex-end;
+            margin-left: auto;
+        }
+
+        &:active {
+            background-color: transparent;
+        }
+
+        &.collapsed {
+            .tech-collapse-icon  {
+                background-image: url("../img/tech-collapse-close.png");
+            }
+        }
+    }
+
+    .tech-collapse-icon {
+        width: 26px;
+        height: 26px;
+        background-image: url("../img/tech-collapse-open.png");
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
+    .card-body {
+        height: 100px;
+        color: #000;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        margin-left: 40px;
+        position: relative;
+        z-index: 9;
+
+        &-left {
+            margin-left: 0;
+            margin-right: 40px;
+        }
+
+    }
+
+    .img-center {
+        position: relative;
+        z-index: 1;
+        margin-top: -100px;
+        margin-bottom: -100px;
+    }
+}
