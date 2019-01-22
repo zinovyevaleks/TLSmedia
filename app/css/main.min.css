@@ -8240,6 +8240,14 @@ strong {
   z-index: 9;
 }
 
+.technologies .btn-collapse .tech-collapse-icon {
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/tech-collapse-open.png");
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
 .technologies .btn-collapse-left {
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
@@ -8256,14 +8264,6 @@ strong {
   background-image: url("../img/tech-collapse-close.png");
 }
 
-.technologies .tech-collapse-icon {
-  width: 26px;
-  height: 26px;
-  background-image: url("../img/tech-collapse-open.png");
-  margin-right: 12px;
-  margin-left: 12px;
-}
-
 .technologies .card-body {
   height: 100px;
   color: #000;
@@ -8278,6 +8278,7 @@ strong {
 .technologies .card-body-left {
   margin-left: 0;
   margin-right: 40px;
+  text-align: right;
 }
 
 .technologies .img-center {
@@ -8554,6 +8555,32 @@ strong {
   }
   .audit .modal-dialog {
     max-width: 80vw;
+  }
+  .technologies .col-reverse {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .technologies .btn-collapse {
+    margin: auto;
+  }
+  .technologies .btn-collapse-left {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: auto;
+  }
+  .technologies .card-body-left {
+    text-align: left;
   }
   .footer h4 {
     text-align: center;

@@ -50,6 +50,30 @@
 		max-width: 80vw;
 	}
 
+	.technologies {
+
+		.col-reverse {
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			flex-direction: column-reverse;
+		}
+
+		.btn-collapse {
+			margin: auto;
+
+			&-left {
+	            // justify-content: flex-end;
+				flex-direction: row-reverse;
+	            margin-left: auto;
+	        }
+		}
+
+		.card-body-left {
+			text-align: left;
+		}
+	}
+
 	.footer {
 		h4 {
 			text-align: center;

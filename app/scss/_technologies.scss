@@ -35,6 +35,14 @@
         position: relative;
         z-index: 9;
 
+        .tech-collapse-icon {
+            width: 26px;
+            height: 26px;
+            background-image: url("../img/tech-collapse-open.png");
+            margin-right: 12px;
+            margin-left: 12px;
+        }
+
 
         &-left {
             justify-content: flex-end;
@@ -52,13 +60,7 @@
         }
     }
 
-    .tech-collapse-icon {
-        width: 26px;
-        height: 26px;
-        background-image: url("../img/tech-collapse-open.png");
-        margin-right: 12px;
-        margin-left: 12px;
-    }
+
 
     .card-body {
         height: 100px;
@@ -73,6 +75,7 @@
         &-left {
             margin-left: 0;
             margin-right: 40px;
+            text-align: right;
         }
 
     }
