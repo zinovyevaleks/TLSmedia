@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    a{
+    a {
         text-decoration: underline;
         color: #141414;
     }
@@ -32,6 +32,7 @@
             font-size: 22px;
         }
     }
+
 
     .logo {
         display: -webkit-flex;
@@ -105,7 +106,6 @@
         margin-top: 75px;
         color: #fff!important;
         text-decoration: none!important;
-
     }
 
     &_button:hover {
@@ -131,13 +131,17 @@
         justify-content: center;
         font-size: 16px;
         margin-top: 20px;
-        margin-bottom: 67px;
+        margin-bottom: 158px;
 
         p {
             margin-bottom: 21px;
             font-size: 16px;
             font-weight: 700;
         }
-    }
 
+        .arrow-animated {
+            position: absolute;
+            margin-top: 60px;
+        }
+    }
 }

@@ -1,0 +1,107 @@
+// Revealator jQuery Plugin
+// Revealator is a jQuery-based plugin for adding effects to elements that enter the window. It's simple, and easy to use.
+// version 1.3, Jan 11th, 2016
+// by Ingi P. Jacobsen
+
+.revealator-fade,
+.revealator-slideup,
+.revealator-slideleft,
+.revealator-slideright,
+.revealator-slidedown,
+.revealator-zoomin,
+.revealator-zoomout,
+.revealator-rotateleft,
+.revealator-rotateright {
+/* Default effect duration */
+  transition: all 600ms;
+}
+
+/* Zoom out effect */
+.revealator-zoomout {
+  transform: scale(1.5);
+  opacity: 0;
+}
+.revealator-zoomout.revealator-within,
+.revealator-zoomout.revealator-partially-above,
+.revealator-zoomout.revealator-above {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Slide left effect */
+.revealator-slideleft {
+  transform: translate(100vh, 0);
+  opacity: 0;
+}
+.revealator-slideleft.revealator-within,
+.revealator-slideleft.revealator-partially-above,
+.revealator-slideleft.revealator-above {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+/* Slide right effect */
+.revealator-slideright {
+  transform: translate(-100vw, 0);
+  opacity: 0;
+}
+.revealator-slideright.revealator-within,
+.revealator-slideright.revealator-partially-above,
+.revealator-slideright.revealator-above {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+//Задержка анимации
+.revealator-delay1 {
+  transition-delay: 100ms !important;
+}
+.revealator-delay2 {
+  transition-delay: 200ms !important;
+}
+.revealator-delay3 {
+  transition-delay: 300ms !important;
+}
+.revealator-delay4 {
+  transition-delay: 400ms !important;
+}
+.revealator-delay5 {
+  transition-delay: 500ms !important;
+}
+.revealator-delay6 {
+  transition-delay: 600ms !important;
+}
+.revealator-delay7 {
+  transition-delay: 700ms !important;
+}
+.revealator-delay8 {
+  transition-delay: 800ms !important;
+}
+.revealator-delay9 {
+  transition-delay: 900ms !important;
+}
+.revealator-delay10 {
+  transition-delay: 1000ms !important;
+}
+.revealator-delay11 {
+  transition-delay: 1100ms !important;
+}
+.revealator-delay12 {
+  transition-delay: 1200ms !important;
+}
+
+
+//Кнопка Оцените результаты
+
+@keyframes up-down {
+    from {
+    margin-top: 60px;
+   }
+   to {
+     margin-top: 80px;
+   }
+}
+
+
+.arrow-animated {
+    animation: up-down 1s linear infinite alternate;
+}

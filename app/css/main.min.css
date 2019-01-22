@@ -7208,13 +7208,18 @@ strong {
           justify-content: center;
   font-size: 16px;
   margin-top: 20px;
-  margin-bottom: 67px;
+  margin-bottom: 158px;
 }
 
 .header .results p {
   margin-bottom: 21px;
   font-size: 16px;
   font-weight: 700;
+}
+
+.header .results .arrow-animated {
+  position: absolute;
+  margin-top: 60px;
 }
 
 /*===== Кейсы =====*/
@@ -7294,6 +7299,10 @@ strong {
   border-style: solid;
   border-color: #F15A40;
   margin-right: 22px;
+}
+
+.cases .case_button-collapse:hover {
+  cursor: pointer;
 }
 
 .cases .case_button-collapse:hover img {
@@ -8476,7 +8485,7 @@ strong {
 
 .map_content {
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 
 .footer {
@@ -8518,6 +8527,167 @@ strong {
 
 .footer h4:last-child {
   margin-bottom: 50px;
+}
+
+.revealator-fade,
+.revealator-slideup,
+.revealator-slideleft,
+.revealator-slideright,
+.revealator-slidedown,
+.revealator-zoomin,
+.revealator-zoomout,
+.revealator-rotateleft,
+.revealator-rotateright {
+  /* Default effect duration */
+  -webkit-transition: all 600ms;
+  -o-transition: all 600ms;
+  transition: all 600ms;
+}
+
+/* Zoom out effect */
+.revealator-zoomout {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+  opacity: 0;
+}
+
+.revealator-zoomout.revealator-within,
+.revealator-zoomout.revealator-partially-above,
+.revealator-zoomout.revealator-above {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+/* Slide left effect */
+.revealator-slideleft {
+  -webkit-transform: translate(100vh, 0);
+      -ms-transform: translate(100vh, 0);
+          transform: translate(100vh, 0);
+  opacity: 0;
+}
+
+.revealator-slideleft.revealator-within,
+.revealator-slideleft.revealator-partially-above,
+.revealator-slideleft.revealator-above {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  opacity: 1;
+}
+
+/* Slide right effect */
+.revealator-slideright {
+  -webkit-transform: translate(-100vw, 0);
+      -ms-transform: translate(-100vw, 0);
+          transform: translate(-100vw, 0);
+  opacity: 0;
+}
+
+.revealator-slideright.revealator-within,
+.revealator-slideright.revealator-partially-above,
+.revealator-slideright.revealator-above {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  opacity: 1;
+}
+
+.revealator-delay1 {
+  -webkit-transition-delay: 100ms !important;
+       -o-transition-delay: 100ms !important;
+          transition-delay: 100ms !important;
+}
+
+.revealator-delay2 {
+  -webkit-transition-delay: 200ms !important;
+       -o-transition-delay: 200ms !important;
+          transition-delay: 200ms !important;
+}
+
+.revealator-delay3 {
+  -webkit-transition-delay: 300ms !important;
+       -o-transition-delay: 300ms !important;
+          transition-delay: 300ms !important;
+}
+
+.revealator-delay4 {
+  -webkit-transition-delay: 400ms !important;
+       -o-transition-delay: 400ms !important;
+          transition-delay: 400ms !important;
+}
+
+.revealator-delay5 {
+  -webkit-transition-delay: 500ms !important;
+       -o-transition-delay: 500ms !important;
+          transition-delay: 500ms !important;
+}
+
+.revealator-delay6 {
+  -webkit-transition-delay: 600ms !important;
+       -o-transition-delay: 600ms !important;
+          transition-delay: 600ms !important;
+}
+
+.revealator-delay7 {
+  -webkit-transition-delay: 700ms !important;
+       -o-transition-delay: 700ms !important;
+          transition-delay: 700ms !important;
+}
+
+.revealator-delay8 {
+  -webkit-transition-delay: 800ms !important;
+       -o-transition-delay: 800ms !important;
+          transition-delay: 800ms !important;
+}
+
+.revealator-delay9 {
+  -webkit-transition-delay: 900ms !important;
+       -o-transition-delay: 900ms !important;
+          transition-delay: 900ms !important;
+}
+
+.revealator-delay10 {
+  -webkit-transition-delay: 1000ms !important;
+       -o-transition-delay: 1000ms !important;
+          transition-delay: 1000ms !important;
+}
+
+.revealator-delay11 {
+  -webkit-transition-delay: 1100ms !important;
+       -o-transition-delay: 1100ms !important;
+          transition-delay: 1100ms !important;
+}
+
+.revealator-delay12 {
+  -webkit-transition-delay: 1200ms !important;
+       -o-transition-delay: 1200ms !important;
+          transition-delay: 1200ms !important;
+}
+
+@-webkit-keyframes up-down {
+  from {
+    margin-top: 60px;
+  }
+  to {
+    margin-top: 80px;
+  }
+}
+
+@keyframes up-down {
+  from {
+    margin-top: 60px;
+  }
+  to {
+    margin-top: 80px;
+  }
+}
+
+.arrow-animated {
+  -webkit-animation: up-down 1s linear infinite alternate;
+          animation: up-down 1s linear infinite alternate;
 }
 
 /*==========  Desktop First  ==========*/
