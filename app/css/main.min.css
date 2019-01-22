@@ -7675,6 +7675,8 @@ strong {
 .feedback {
   background-image: url("../img/feedback_bg.jpg");
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
 }
 
 .feedback h2 {
