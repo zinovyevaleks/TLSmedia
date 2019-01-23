@@ -533,7 +533,7 @@
 				</div>
 				<div class="row justify-content-center">
 					<fieldset class="form-group">
-						<input class="revealator-zoomout" type="tel" name="Телефон" placeholder="оставьте ваш номер телефона" required>
+						<input class="revealator-zoomout" type="tel" name="Телефон" placeholder="оставьте ваш номер телефона (без 8)" required pattern="[0-9]{10}">
 						<button class="btn revealator-zoomout" type="submit">Рассчитать стоимость</button>
 					</fieldset>
 				</div>
@@ -638,8 +638,8 @@
 									</div>
 									<div class="modal-body">
 
-										<input type="tel" class="phone" name="Телефон" aria-describedby="emailHelp" placeholder="Ваш номер телефона" required>
-										<input type="email" class="email" name="Email" aria-describedby="emailHelp" placeholder="Ваш E-mail" required>
+										<input type="tel" name="Телефон" aria-describedby="emailHelp" placeholder="оставьте ваш номер телефона (без 8)" required pattern="[0-9]{10}" required>
+										<input type="email" name="Email" aria-describedby="emailHelp" placeholder="Ваш E-mail" required>
 
 									</div>
 									<div class="modal-footer">
@@ -718,10 +718,7 @@
 									</div>
 								</div>
 							</div>
-
 						</div>
-
-
 					</div>
 					<!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -962,17 +959,15 @@
 					<form class="faq-form revealator-slideleft" id="faqForm">
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="TLSmedia - FAQ">
-						<input type="hidden" name="admin_email" value="zinovyevaleks@yandex.ru">
-						<!-- <input type="hidden" name="admin_email" value="zakaz@tls.media"> -->
+						<input type="hidden" name="admin_email" value="zakaz@tls.media">
 						<input type="hidden" name="form_subject" value="Форма FAQ">
 						<!-- END Hidden Required Fields -->
 
 						<h4>ЕСЛИ ВЫ НЕ НАШЛИ ОТВЕТ НА СВОЙ ВОПРОС <span>ПРОСТО НАПИШИТЕ НАМ</span></h4>
 
 						<div class="form-group">
-							<input type="email" class="form-control form-email" placeholder="Ваш Email">
+							<input type="email" class="form-control form-email" placeholder="Ваш Email" required>
 						</div>
-
 						<div class="form-group">
 							<textarea class="form-control form-text" placeholder="Напишите свой вопрос здесь" rows="4"></textarea>
 						</div>
@@ -998,7 +993,6 @@
 			</div>
 			<div class="row">
 				<div class="map_content">
-					<!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aae0a4940e765e3a03bb1126cb064fc90023cb1433ecf161b8022c6fbc27aaa91&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe> </div> -->
 					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A85e0cda59a65117134a781902710ce17e6bbeb9edaf75c45a6aa47df517723c1&width=100%25&height=400&lang=ru_RU&scroll=true"></script>
 			</div>
 		</div>
