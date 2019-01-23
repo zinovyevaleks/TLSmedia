@@ -46,7 +46,7 @@ $(function() {
             dataLayer.push({
                 'event': 'formzayavka1'
             });
-            alert("Спасибо!");
+            alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
             setTimeout(function() {
                 // Done Functions
                 th.trigger("reset");
@@ -78,7 +78,7 @@ $(function() {
             dataLayer.push({
                 'event': 'formzayavka2'
             });
-            alert("Спасибо!");
+            alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
             setTimeout(function() {
                 // Done Functions
                 th.trigger("reset");
@@ -98,7 +98,7 @@ $(function() {
             dataLayer.push({
                 'event': 'formzayavka2'
             });
-            alert("Спасибо!");
+            alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
             setTimeout(function() {
                 // Done Functions
                 th.trigger("reset");
