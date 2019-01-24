@@ -96,7 +96,7 @@ $(function() {
             data: th.serialize()
         }).done(function() {
             dataLayer.push({
-                'event': 'formzayavka2'
+                'event': 'formzayavka3'
             });
             alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
             setTimeout(function() {
