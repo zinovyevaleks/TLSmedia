@@ -128,6 +128,18 @@
                 text-transform: uppercase;
             }
 
+            a {
+                margin-bottom: 0;
+                font-size: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #b52f31;
+                }
+            }
+
             .calltoaction {
                 width: 360px;
                 margin-bottom: 0;

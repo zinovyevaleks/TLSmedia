@@ -109,9 +109,7 @@
 				</div>
 			</div>
 			<div class="row justify-content-center">
-
 				<a href="#price" role="button" class="btn header_button anchor_link revealator-zoomout">Узнайте цену</a>
-
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-12 results">
@@ -713,8 +711,8 @@
 										<div class="decoration_line"></div>
 										<p class="calltoaction text-center">НАЖМИТЕ НА ССЫЛКУ, ЧТОБЫ УЗНАТЬ КАКУЮ СУММУ ЗАПРОСИЛИ ДРУГИЕ АГЕНСТВА</p>
 										<div class="decoration_line"></div>
-										<p class="other_studio">eurostudio</p>
-										<p class="other_studio">itconstruct</p>
+										<a class="other_studio" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Менеджер по работе с клиентами Евростудио:" data-content="Предварительная стоимость такого проекта от 600 тыс. рублей - до 1 млн. рублей.">eurostudio</a>
+										<a class="other_studio" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Менеджер отдела продаж Itconstruct:" data-content="Подобный сайт в индивидуальной разработке стоит от 1 млн. рублей.">itconstruct</a>
 									</div>
 								</div>
 							</div>
@@ -959,8 +957,7 @@
 					<form class="faq-form revealator-slideleft" id="faqForm">
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="TLSmedia - FAQ">
-						<!-- <input type="hidden" name="admin_email" value="zakaz@tls.media"> -->
-						<input type="hidden" name="admin_email" value="zinovyevaleks@yandex.ru">
+						<input type="hidden" name="admin_email" value="zakaz@tls.media">
 						<input type="hidden" name="form_subject" value="Форма FAQ">
 						<!-- END Hidden Required Fields -->
 
@@ -1036,6 +1033,9 @@
 			</div>
 		</div>
 	</footer>
+
+
+	<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>
 
 
 	<script src="js/scripts.min.js"></script>

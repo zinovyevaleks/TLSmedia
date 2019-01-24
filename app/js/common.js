@@ -106,4 +106,9 @@ $(function() {
         });
         return false;
     });
+
+
+    $(function() {
+        $('[data-toggle="popover"]').popover()
+    })
 });

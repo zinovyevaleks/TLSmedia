@@ -38,7 +38,7 @@ gulp.task('styles', function() {
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
-		'app/libs/bootstrap/bootstrap.js',
+		'app/libs/bootstrap/bootstrap.bundle.js',
 		'app/libs/revealator-master/fm.revealator.jquery.js',
 		'app/js/common.js', // Always at the end
 		])
