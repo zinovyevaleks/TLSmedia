@@ -33,11 +33,26 @@
 
 	<!-- Template Basic Images Start -->
 	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
 	<!-- Template Basic Images End -->
 
 	<!-- Custom Browsers Color Start -->
-	<meta name="theme-color" content="#000">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 	<!-- Custom Browsers Color End -->
 
 	<link rel="stylesheet" href="css/main.min.css">
@@ -992,8 +1007,8 @@
 			<div class="row">
 				<div class="map_content">
 					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A85e0cda59a65117134a781902710ce17e6bbeb9edaf75c45a6aa47df517723c1&width=100%25&height=400&lang=ru_RU&scroll=true"></script>
+				</div>
 			</div>
-		</div>
 	</section>
 
 	<!-- Подвал -->
@@ -1041,7 +1056,29 @@
 
 	<!-- BEGIN JIVOSITE CODE {literal} -->
 	<script type='text/javascript'>
-	(function(){ var widget_id = 'PEgVDZrEyu';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+		(function() {
+			var widget_id = 'PEgVDZrEyu';
+			var d = document;
+			var w = window;
+
+			function l() {
+				var s = document.createElement('script');
+				s.type = 'text/javascript';
+				s.async = true;
+				s.src = '//code.jivosite.com/script/widget/' + widget_id;
+				var ss = document.getElementsByTagName('script')[0];
+				ss.parentNode.insertBefore(s, ss);
+			}
+			if (d.readyState == 'complete') {
+				l();
+			} else {
+				if (w.attachEvent) {
+					w.attachEvent('onload', l);
+				} else {
+					w.addEventListener('load', l, false);
+				}
+			}
+		})();
 	</script>
 	<!-- {/literal} END JIVOSITE CODE -->
 </body>
