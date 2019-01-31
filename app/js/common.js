@@ -46,7 +46,8 @@ $(function() {
             dataLayer.push({
                 'event': 'formzayavka1'
             });
-            alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
+            //alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
+            window.location.href = "https://tls.media/TLSmedia-thanx/"
             setTimeout(function() {
                 // Done Functions
                 th.trigger("reset");
@@ -78,7 +79,8 @@ $(function() {
             dataLayer.push({
                 'event': 'formzayavka2'
             });
-            alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
+            //alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
+            window.location.href = "https://tls.media/TLSmedia-thanx/"
             setTimeout(function() {
                 // Done Functions
                 th.trigger("reset");
@@ -98,7 +100,8 @@ $(function() {
             dataLayer.push({
                 'event': 'formzayavka3'
             });
-            alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
+            //alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
+            window.location.href = "https://tls.media/TLSmedia-thanx/"
             setTimeout(function() {
                 // Done Functions
                 th.trigger("reset");
