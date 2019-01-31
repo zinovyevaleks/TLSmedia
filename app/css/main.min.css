@@ -7543,6 +7543,14 @@ strong {
           justify-content: center;
 }
 
+.cases_right .tab-content .tab-pane {
+  display: none;
+}
+
+.cases_right .tab-content .show {
+  display: block;
+}
+
 .cases_right .media {
   margin-left: 58px;
 }
