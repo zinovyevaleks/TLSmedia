@@ -17,7 +17,7 @@ gulp.task('browser-sync', function() {
 		server: {
 			baseDir: 'app'
 		},
-		browser: 'google chrome',
+		browser: 'chrome',
 		notify: false,
 		// open: false,
 		// online: false, // Work Offline Without Internet Connection
