@@ -139,7 +139,8 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="marquiz__container">
-					<a class="btn header_button marquiz__button marquiz__button_blicked marquiz__button_rounded marquiz__button_shadow" href="#popup:marquiz_5c3d8fbf2b8c0f0055d7635e" data-fixed-side="" data-alpha-color="rgba(255, 117, 68, 0.5)" data-color="#ff7544" data-text-color="#ffffff">Пройди
+					<a class="btn header_button marquiz__button marquiz__button_blicked marquiz__button_rounded marquiz__button_shadow" href="#popup:marquiz_5c3d8fbf2b8c0f0055d7635e" data-fixed-side="" data-alpha-color="rgba(255, 117, 68, 0.5)" data-color="#ff7544"
+					  data-text-color="#ffffff">Пройди
 						тест и узнай стоимость услуг</a>
 				</div>
 			</div>
@@ -194,7 +195,6 @@
 											<img src="./img/header_icon-ad.png" alt="">
 											<h5><span>ИНТЕРНЕТ</span> РЕКЛАМА</h5>
 										</button>
-
 									</div>
 									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionCases">
 										<div class="card-body">
@@ -311,7 +311,7 @@
 
 	<!-- Секция Спектор услуг -->
 	<section class="services" id="services">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12">
 					<h2 class="revealator-zoomout">ШИРОКИЙ</h2>
@@ -322,280 +322,345 @@
 			<form action="#" id="order" method="get">
 				<!-- Hidden Required Fields -->
 				<input type="hidden" name="project_name" value="TLSmedia">
-				<input type="hidden" name="admin_email" value="zakaz@tls.media">
+				<!-- <input type="hidden" name="admin_email" value="zakaz@tls.media"> -->
+				<input type="hidden" name="admin_email" value="zinovyevaleks@yandex.">
 				<input type="hidden" name="form_subject" value="Raschet stoimosti">
 				<!-- END Hidden Required Fields -->
 
+
 				<div class="row justify-content-center">
-					<div class="col-lg-5 services_left">
-						<div class="list-group" id="list-tab" role="tablist">
-							<a class="list-group-item list-group-item-action active revealator-slideright" data-toggle="list" href="#marketing" role="tab">ИНТЕРНЕТ реклама</a>
-							<a class="list-group-item list-group-item-action revealator-slideright" data-toggle="list" href="#development" role="tab">РАЗРАБОТКА САЙТОВ</a>
-							<a class="list-group-item list-group-item-action revealator-slideright" data-toggle="list" href="#seo-optimization" role="tab">SEO ОПТИМИЗАЦИЯ</a>
-							<a class="list-group-item list-group-item-action revealator-slideright" data-toggle="list" href="#corporate-identity" role="tab">ФИРМЕННЫЙ СТИЛЬ</a>
-							<a class="list-group-item list-group-item-action revealator-slideright" data-toggle="list" href="#smm-marketing" role="tab">ПРОДВИЖЕНИЕ В СОЦ.СЕТЯХ</a>
-							<a class="list-group-item list-group-item-action revealator-slideright" data-toggle="list" href="#email-marketing" role="tab">EMAIL МАРКЕТИНГ</a>
-							<a class="list-group-item list-group-item-action revealator-slideright" data-toggle="list" href="#system-implementation" role="tab">Сквозная аналитика</a>
-							<a class="list-group-item list-group-item-action revealator-slideright" data-toggle="list" href="#tender" role="tab">УЧАСТИЕ В ТЕНДЕРАХ</a>
-						</div>
-					</div>
-					<div class="col-lg-7 services_rigth">
-						<div class="tab-content" id="nav-tabContent">
-							<div class="tab-pane fade show active" id="marketing" role="tabpanel">
-								<img src="./img/iMarketing_icon.png" class=" revealator-slideleft" alt="Интернет-маркетинг">
+					<ul class="nav nav-pills services_top mb-3 text-center" id="pills-tab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="marketing-tab" data-toggle="pill" href="#marketing" role="tab" aria-controls="marketing" aria-selected="true">ИНТЕРНЕТ реклама</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="development-tab" data-toggle="pill" href="#development" role="tab" aria-controls="development" aria-selected="false">РАЗРАБОТКА САЙТОВ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="seo-optimization-tab" data-toggle="pill" href="#seo-optimization" role="tab" aria-controls="seo-optimization" aria-selected="false">SEO ОПТИМИЗАЦИЯ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="corporate-identity-tab" data-toggle="pill" href="#corporate-identity" role="tab" aria-controls="corporate-identity" aria-selected="false">ФИРМЕННЫЙ СТИЛЬ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="smm-marketing-tab" data-toggle="pill" href="#smm-marketing" role="tab" aria-controls="smm-marketing" aria-selected="false">ПРОДВИЖЕНИЕ <br>В СОЦ.СЕТЯХ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="email-marketing-tab" data-toggle="pill" href="#email-marketing" role="tab" aria-controls="email-marketing" aria-selected="false">EMAIL МАРКЕТИНГ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="system-implementation-tab" data-toggle="pill" href="#system-implementation" role="tab" aria-controls="system-implementation" aria-selected="false">Сквозная аналитика</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="tender-tab" data-toggle="pill" href="#tender" role="tab" aria-controls="tender" aria-selected="false">УЧАСТИЕ В ТЕНДЕРАХ</a>
+						</li>
+					</ul>
+				</div>
+				<div class="row justify-content-center">
+					<div class="tab-content col-9" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="marketing" role="tabpanel" aria-labelledby="marketing-tab">
+							<div class="pane-left">
+								<h4 class="revealator-zoomout">ИНТЕРНЕТ реклама</h4>
+								<img src="./img/ipad-service-1.jpg" alt="" class="img-fluid revealator-slideright">
+							</div>
+							<div class="pane-right">
+								<img src="./img/iMarketing_icon.png" class="top-image revealator-slideleft" alt="Интернет-маркетинг">
 								<fieldset>
 									<div class="form_content">
 										<div class="form-check revealator-slideleft">
-											<input class="form-check-input" type="checkbox" name="НАСТРОЙКА И ВЕДЕНИЕ РЕКЛАМЫ" id="adds">
-											<label class="form-check-label" for="adds">
+											<input class="form-check-input" type="checkbox" name="НАСТРОЙКА И ВЕДЕНИЕ РЕКЛАМЫ" id="check1">
+											<label class="form-check-label" for="check1">
 												НАСТРОЙКА И ВЕДЕНИЕ РЕКЛАМЫ
 											</label>
 										</div>
 										<div class="form-check revealator-slideleft">
-											<input class="form-check-input" type="checkbox" name="ВНЕДРЕНИЕ СКВОЗНОЙ АНАЛИТИКИ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ВНЕДРЕНИЕ СКВОЗНОЙ АНАЛИТИКИ" id="check2">
+											<label class="form-check-label" for="check2">
 												ВНЕДРЕНИЕ СКВОЗНОЙ АНАЛИТИКИ
 											</label>
 										</div>
 										<div class="form-check revealator-slideleft">
-											<input class="form-check-input" type="checkbox" name="ПРОГНОЗ ТРАФИКА И БЮДЖЕТА" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ПРОГНОЗ ТРАФИКА И БЮДЖЕТА" id="check3">
+											<label class="form-check-label" for="check3">
 												ПРОГНОЗ ТРАФИКА И БЮДЖЕТА
 											</label>
 										</div>
 										<div class="form-check revealator-slideleft">
-											<input class="form-check-input" type="checkbox" name="СОЗДАНИЕ АВТОВОРОНОК" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="СОЗДАНИЕ АВТОВОРОНОК" id="check4">
+											<label class="form-check-label" for="check4">
 												СОЗДАНИЕ АВТОВОРОНОК
 											</label>
 										</div>
 									</div>
 								</fieldset>
 							</div>
-							<div class="tab-pane fade" id="development" role="tabpanel">
-								<img src="./img/develop_icon.png" alt="Разработка сайтов">
+
+						</div>
+						<div class="tab-pane fade" id="development" role="tabpanel" aria-labelledby="development-tab">
+							<div class="pane-left">
+								<h4 class="revealator-zoomout">разработка сайтов</h4>
+								<img src="./img/ipad-service-2.png" alt="" class="img-fluid revealator-slideright">
+							</div>
+							<div class="pane-right">
+								<img src="./img/develop_icon.png" alt="Разработка сайтов" class="top-image revealator-slideleft">
 								<fieldset>
 									<div class="form_content">
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="САЙТ-ВИЗИТКА" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="САЙТ-ВИЗИТКА" id="сheck5">
+											<label class="form-check-label" for="сheck5">
 												САЙТ-ВИЗИТКА
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ПРОДАЮЩИЙ САЙТ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ПРОДАЮЩИЙ САЙТ" id="сheck6">
+											<label class="form-check-label" for="сheck6">
 												ОДНОСТРАНИЧНЫЙ САЙТ (Лендинг)
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ИНТЕРНЕТ-МАГАЗИН" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ИНТЕРНЕТ-МАГАЗИН" id="сheck7">
+											<label class="form-check-label" for="сheck7">
 												ИНТЕРНЕТ-МАГАЗИН
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="КОРПОРАТИВНЫЙ САЙТ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="КОРПОРАТИВНЫЙ САЙТ" id="сheck8">
+											<label class="form-check-label" for="сheck8">
 												КОРПОРАТИВНЫЙ САЙТ
 											</label>
 										</div>
 									</div>
 								</fieldset>
 							</div>
-							<div class="tab-pane fade" id="seo-optimization" role="tabpanel">
-								<img src="./img/seo_icon.png" alt="Поисковая оптимизация">
+						</div>
+						<div class="tab-pane fade" id="seo-optimization" role="tabpanel" aria-labelledby="seo-optimization-tab">
+							<div class="pane-left">
+								<h4 class="revealator-zoomout">SEO ОПТИМИЗАЦИЯ</h4>
+								<img src="./img/ipad-service-3.png" alt="" class="img-fluid revealator-slideright">
+							</div>
+							<div class="pane-right">
+								<img src="./img/seo_icon.png" class="top-image revealator-slideleft" alt="">
 								<fieldset>
 									<div class="form_content">
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="Поисковая оптимизация" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="Поисковая оптимизация" id="check9">
+											<label class="form-check-label" for="check9">
 												Поисковая оптимизация
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="продвижение сайта" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="продвижение сайта" id="check10">
+											<label class="form-check-label" for="check10">
 												продвижение сайта
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="анализ сайта конкурентов" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="анализ сайта конкурентов" id="check11">
+											<label class="form-check-label" for="check11">
 												анализ сайта конкурентов
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="техническая поддержка" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="техническая поддержка" id="check12">
+											<label class="form-check-label" for="check12">
 												техническая поддержка
 											</label>
 										</div>
 									</div>
 								</fieldset>
 							</div>
-							<div class="tab-pane fade" id="corporate-identity" role="tabpanel">
-								<img src="./img/identity_icon.png" alt="Фирменный стиль">
+						</div>
+						<div class="tab-pane fade" id="corporate-identity" role="tabpanel" aria-labelledby="corporate-identity-tab">
+							<div class="pane-left">
+								<h4 class="revealator-zoomout">Фирменный стиль</h4>
+								<img src="./img/ipad-service-4.png" alt="" class="img-fluid revealator-slideright">
+							</div>
+							<div class="pane-right">
+								<img src="./img/identity_icon.png" class="top-image revealator-slideleft" alt="">
 								<fieldset>
 									<div class="form_content">
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="разработка логотипа" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="разработка логотипа" id="check13">
+											<label class="form-check-label" for="check13">
 												разработка логотипа
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="создание брендбука" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="создание брендбука" id="check14">
+											<label class="form-check-label" for="check14">
 												создание брендбука
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="маркетинг кит" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="маркетинг кит" id="check15">
+											<label class="form-check-label" for="check15">
 												маркетинг кит
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="носители фирменного стиля" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="носители фирменного стиля" id="check16">
+											<label class="form-check-label" for="check16">
 												редизайн сайтов
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="носители фирменного стиля" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="носители фирменного стиля" id="check17">
+											<label class="form-check-label" for="check17">
 												Фирменные цвета
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="носители фирменного стиля" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="носители фирменного стиля" id="check18">
+											<label class="form-check-label" for="check18">
 												фирменные шрифты
 											</label>
 										</div>
 									</div>
 								</fieldset>
 							</div>
-							<div class="tab-pane fade" id="smm-marketing" role="tabpanel">
-								<img src="./img/smm_icon.png" alt="SMM маркетинг">
+						</div>
+						<div class="tab-pane fade" id="smm-marketing" role="tabpanel" aria-labelledby="smm-marketing-tab">
+							<div class="pane-left">
+								<h4 class="revealator-zoomout">продавижение в соц. сетях</h4>
+								<img src="./img/ipad-service-5.png" alt="" class="img-fluid revealator-slideright">
+							</div>
+							<div class="pane-right">
+								<img src="./img/smm_icon.png" class="top-image revealator-slideleft" alt="">
 								<fieldset>
 									<div class="form_content">
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ОФОРМЛЕНИЕ СОЦ. СЕТЕЙ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ОФОРМЛЕНИЕ СОЦ. СЕТЕЙ" id="check19">
+											<label class="form-check-label" for="check19">
 												ОФОРМЛЕНИЕ СОЦ. СЕТЕЙ
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="СОЗДАНИЕ КОНТЕНТА" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="СОЗДАНИЕ КОНТЕНТА" id="check20">
+											<label class="form-check-label" for="check20">
 												СОЗДАНИЕ КОНТЕНТА
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ПРОДВИЖЕНИЕ АККАУНТА" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ПРОДВИЖЕНИЕ АККАУНТА" id="check21">
+											<label class="form-check-label" for="check21">
 												ПРОДВИЖЕНИЕ АККАУНТА
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="РЕКЛАМА В СОЦ. СЕТЯХ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="РЕКЛАМА В СОЦ. СЕТЯХ" id="check22">
+											<label class="form-check-label" for="check22">
 												таргетированная РЕКЛАМА
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="РЕКЛАМА В СОЦ. СЕТЯХ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="РЕКЛАМА В СОЦ. СЕТЯХ" id="check23">
+											<label class="form-check-label" for="check23">
 												массовая рассылка
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="РЕКЛАМА В СОЦ. СЕТЯХ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="РЕКЛАМА В СОЦ. СЕТЯХ" id="check24">
+											<label class="form-check-label" for="check24">
 												работа с блогерами
 											</label>
 										</div>
 									</div>
 								</fieldset>
 							</div>
-							<div class="tab-pane fade" id="email-marketing" role="tabpanel">
-								<img src="./img/email_market_icon.png" alt="SMM маркетинг">
+						</div>
+						<div class="tab-pane fade" id="email-marketing" role="tabpanel" aria-labelledby="email-marketing-tab">
+							<div class="pane-left">
+								<h4 class="revealator-zoomout">email маркетинг</h4>
+								<img src="./img/ipad-service-6.png" alt="" class="img-fluid revealator-slideright">
+							</div>
+							<div class="pane-right">
+								<img src="./img/email_market_icon.png" class="top-image revealator-slideleft" alt="">
 								<fieldset>
 									<div class="form_content">
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ПАРСИНГ БАЗЫ ДЛЯ РАССЫЛКИ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ПАРСИНГ БАЗЫ ДЛЯ РАССЫЛКИ" id="check25">
+											<label class="form-check-label" for="check25">
 												ПАРСИНГ БАЗЫ ДЛЯ РАССЫЛКИ
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="РАЗРАБОТКА EMAIL СООБЩЕНИЯ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="РАЗРАБОТКА EMAIL СООБЩЕНИЯ" id="check26">
+											<label class="form-check-label" for="check26">
 												РАЗРАБОТКА цепочки EMAIL писем
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ВЕРСТКА EMAIL ПИСЬМА" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ВЕРСТКА EMAIL ПИСЬМА" id="check27">
+											<label class="form-check-label" for="check27">
 												ВЕРСТКА EMAIL ПИСЬМА
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="РАССЫЛКА EMAIL ПО БАЗАМ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="РАССЫЛКА EMAIL ПО БАЗАМ" id="check28">
+											<label class="form-check-label" for="check28">
 												РАССЫЛКА EMAIL ПО БАЗАМ
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="РАССЫЛКА EMAIL ПО БАЗАМ" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="РАССЫЛКА EMAIL ПО БАЗАМ" id="check29">
+											<label class="form-check-label" for="check29">
 												автоворонки
 											</label>
 										</div>
 									</div>
 								</fieldset>
 							</div>
-							<div class="tab-pane fade" id="system-implementation" role="tabpanel">
-								<img src="./img/implementation_icon.png" alt="SMM маркетинг">
+						</div>
+						<div class="tab-pane fade" id="system-implementation" role="tabpanel" aria-labelledby="pills-contact-tab">
+							<div class="pane-left">
+								<h4 class="revealator-zoomout">сквозная аналитика</h4>
+								<img src="./img/ipad-service-7.png" alt="" class="img-fluid revealator-slideright">
+							</div>
+							<div class="pane-right">
+								<img src="./img/implementation_icon.png" class="top-image revealator-slideleft" alt="Интернет-маркетинг">
 								<fieldset>
 									<div class="form_content">
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="УСТАНОВКА И НАСТРОЙКА CRM" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="УСТАНОВКА И НАСТРОЙКА CRM" id="сheck30">
+											<label class="form-check-label" for="сheck30">
 												УСТАНОВКА И НАСТРОЙКА CRM
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ИНТЕГРАЦИЯ НА САЙТ 1С" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ИНТЕГРАЦИЯ НА САЙТ 1С" id="сheck31">
+											<label class="form-check-label" for="сheck31">
 												ИНТЕГРАЦИЯ НА САЙТ 1С
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ВНЕДРЕНИЕ ROISTAT" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ВНЕДРЕНИЕ ROISTAT" id="сheck32">
+											<label class="form-check-label" for="сheck32">
 												ВНЕДРЕНИЕ ROISTAT
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ЗАПУСК CALL TRACKING" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ЗАПУСК CALL TRACKING" id="сheck33">
+											<label class="form-check-label" for="сheck33">
 												ЗАПУСК CALL TRACKING
 											</label>
 										</div>
 										<div class="form-check">
-											<input class="form-check-input" type="checkbox" name="ЗАПУСК CALL TRACKING" id="defaultCheck1">
-											<label class="form-check-label" for="defaultCheck1">
+											<input class="form-check-input" type="checkbox" name="ЗАПУСК CALL TRACKING" id="сheck34">
+											<label class="form-check-label" for="сheck34">
 												Google analytics и Яндекс Метрика
 											</label>
 										</div>
 									</div>
 								</fieldset>
 							</div>
-							<div class="tab-pane fade" id="tender" role="tabpanel">
-								<img src="./img/tender_icon.png" alt="Тендер">
+						</div>
+						<div class="tab-pane fade" id="tender" role="tabpanel" aria-labelledby="pills-contact-tab">
+							<div class="pane-left">
+								<h4 class="revealator-zoomout">участие в тендерах</h4>
+								<img src="./img/ipad-service-8.png" alt="" class="img-fluid revealator-slideright">
+							</div>
+							<div class="pane-right">
+								<img src="./img/tender_icon.png" class="top-image revealator-slideleft" alt="Интернет-маркетинг">
 								<fieldset>
 									<p>Мы одни из немногих агенств, которые работают с тендерами.
 										Для заказчиков мы предоставляем высокое качество услуг
@@ -608,6 +673,7 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="row justify-content-center">
 					<fieldset class="form-group">
 						<input class="revealator-zoomout" type="tel" name="Телефон" placeholder="оставьте ваш номер телефона (без 8)" required pattern="[0-9]{10}">
