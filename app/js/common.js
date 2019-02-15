@@ -42,6 +42,14 @@ $(function() {
         }
     });
 
+    // Переключение картинок по радиокнопкам
+
+    $('.pane-right-radio').click(function(){
+    var radiovalue = $(this).val();
+      $(".pane-left-img").hide();
+      $("#img"+radiovalue).show();
+  });
+
 
     // Переключение цветов активных хэдеров карточек в Аудите
 

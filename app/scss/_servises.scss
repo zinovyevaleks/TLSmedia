@@ -30,7 +30,6 @@
     font-weight: 300;
   }
 
-
   .nav-pills {
     margin-top: 64px;
     text-transform: uppercase;
@@ -103,11 +102,19 @@
           margin-top: 1.5rem;
         }
 
-        img {
+        .pane-left-img {
           margin-top: 41px;
           width: 644px;
           height: 501px;
+          position: absolute;
+          display: none;
+
+          &.show {
+            display: block;
+          }
         }
+
+
       }
 
       .pane-right {

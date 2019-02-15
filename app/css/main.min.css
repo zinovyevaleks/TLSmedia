@@ -7868,10 +7868,16 @@ strong {
   margin-top: 1.5rem;
 }
 
-.services .tab-content .tab-pane .pane-left img {
+.services .tab-content .tab-pane .pane-left .pane-left-img {
   margin-top: 41px;
   width: 644px;
   height: 501px;
+  position: absolute;
+  display: none;
+}
+
+.services .tab-content .tab-pane .pane-left .pane-left-img.show {
+  display: block;
 }
 
 .services .tab-content .tab-pane .pane-right {
