@@ -34,6 +34,19 @@
 }
 // ≥992px
 @include media-breakpoint-down(md) {
+	.portfolio {
+		h2 {
+			font-size: 72px;
+			margin-top: 50px;
+		}
+
+		h3 {
+			margin-top: 0;
+			margin-left: 0;
+		}
+	}
+
+
 	.principles .card {
 		margin-top: 30px;
 	}
@@ -98,6 +111,7 @@
 	.btn {
 		width: 360px;
 	}
+
 
 	.cases_left {
 		h2 {

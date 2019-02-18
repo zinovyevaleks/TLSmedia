@@ -7522,6 +7522,83 @@ strong {
   margin-top: 60px;
 }
 
+.portfolio {
+  padding-bottom: 200px;
+  background-image: url(../img/tech-element-top-right.png), url(../img/tech-bg-bottom-left.png);
+  background-position: top right, bottom left;
+  background-repeat: no-repeat;
+}
+
+.portfolio h2 {
+  font-family: 'Raleway', sans-serif;
+  background: -webkit-linear-gradient(30deg, #de6776 20%, #f98461 53%);
+  background: -o-linear-gradient(30deg, #de6776 20%, #f98461 53%);
+  background: linear-gradient(60deg, #de6776 20%, #f98461 53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 50px;
+  font-size: 115px;
+  font-weight: 900;
+  line-height: 34.276px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 97px;
+  height: 112px;
+}
+
+.portfolio h3 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: -36px;
+  margin-left: 174px;
+}
+
+.portfolio p {
+  font-size: 21px;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-item a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  background-color: rgba(235, 51, 73, 0.7);
+  opacity: 0;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+  text-decoration: none;
+  color: white;
+  font-size: 36px;
+  text-shadow: 2px 1px 1px #000;
+}
+
+.portfolio-item a:hover {
+  opacity: 1;
+}
+
 /*===== Кейсы =====*/
 .cases_left {
   background-image: url("../img/cases_bg-left.png");
@@ -9121,6 +9198,14 @@ strong {
 }
 
 @media (max-width: 991.98px) {
+  .portfolio h2 {
+    font-size: 72px;
+    margin-top: 50px;
+  }
+  .portfolio h3 {
+    margin-top: 0;
+    margin-left: 0;
+  }
   .principles .card {
     margin-top: 30px;
   }
