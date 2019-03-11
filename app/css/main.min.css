@@ -7933,6 +7933,7 @@ strong {
 
 .services .tab-content .tab-pane .pane-left {
   width: 55%;
+  padding-right: 5vw;
 }
 
 .services .tab-content .tab-pane .pane-left h4 {
@@ -7947,9 +7948,6 @@ strong {
 
 .services .tab-content .tab-pane .pane-left .pane-left-img {
   margin-top: 41px;
-  width: 644px;
-  height: 501px;
-  position: absolute;
   display: none;
 }
 
@@ -7959,10 +7957,12 @@ strong {
 
 .services .tab-content .tab-pane .pane-right {
   width: 45%;
-  padding-right: 100px;
+  padding-right: 3vw;
 }
 
 .services .tab-content .tab-pane .top-image {
+  width: 250px;
+  height: 250px;
   position: absolute;
   z-index: 10;
   top: 5px;
@@ -8001,7 +8001,7 @@ strong {
   font-size: 18px;
   font-weight: 400;
   margin-top: 186px;
-  width: 405px;
+  width: 23vw;
   text-align: justify;
   margin-bottom: 137px;
   margin-left: 10%;
