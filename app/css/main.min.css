@@ -7590,13 +7590,17 @@ strong {
   -o-transition: .3s linear;
   transition: .3s linear;
   text-decoration: none;
-  color: white;
-  font-size: 36px;
   text-shadow: 2px 1px 1px #000;
 }
 
 .portfolio-item a:hover {
   opacity: 1;
+}
+
+.portfolio-item a p {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 0;
 }
 
 /*===== Кейсы =====*/
